@@ -12,7 +12,6 @@ public class InputManager : MonoBehaviour {
 
   public void Move(InputAction.CallbackContext context) {
     movementScript.Move(context);
-
   }
 
   public void Jump(InputAction.CallbackContext context) {
@@ -20,14 +19,14 @@ public class InputManager : MonoBehaviour {
   }
 
   public void Dash(InputAction.CallbackContext context) {
-
+    GetComponent<Element>().Dash(context);
   }
 
   public void Attack(InputAction.CallbackContext context) {
-
+    GetComponent<Element>().Attack(context);
   }
 
   public void Block(InputAction.CallbackContext context) {
-
+    GetComponent<Element>().Block(context);
   }
 }
