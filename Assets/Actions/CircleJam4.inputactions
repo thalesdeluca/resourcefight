@@ -27,7 +27,7 @@
                     "id": "0cb651ce-85f0-413a-82b7-40a0107ac779",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Hold(duration=10)"
                 },
                 {
                     "name": "Jump",
@@ -51,7 +51,7 @@
                     "id": "d9571a30-35a0-4d74-af76-476a3b69615a",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Hold(duration=10)"
                 }
             ],
             "bindings": [

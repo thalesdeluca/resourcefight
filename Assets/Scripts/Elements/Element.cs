@@ -20,7 +20,7 @@ public abstract class Element : MonoBehaviour {
   public bool Executing { get { return executing; } }
 
   [SerializeField]
-  protected Ability ability;
+  protected Ability abilities;
 
   public abstract void Dash(InputAction.CallbackContext context);
 

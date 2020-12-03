@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d35ce0107c05794419e3f806612764d4, type: 3}
+  m_Name: Abilities
+  m_EditorClassIdentifier: 
+  fireAttack: {fileID: 2728957804412348002, guid: f5e25eabb3bb71f48bd7fd68da01af1f,
+    type: 3}
+  fireDash: {fileID: 2728957804412348002, guid: f5e25eabb3bb71f48bd7fd68da01af1f,
+    type: 3}
+  fireBlock: {fileID: 2728957804412348002, guid: f5e25eabb3bb71f48bd7fd68da01af1f,
+    type: 3}
+  waterAttack: {fileID: 6566632429871850333, guid: f28df185c79b85945b18f1059a0eeefb,
+    type: 3}
+  waterDash: {fileID: 6566632429871850333, guid: f28df185c79b85945b18f1059a0eeefb,
+    type: 3}
+  waterBlock: {fileID: 6566632429871850333, guid: f28df185c79b85945b18f1059a0eeefb,
+    type: 3}
+  electricAttack: {fileID: 6698046719384047330, guid: 74425af7a0cf01441a379fe383ca36f4,
+    type: 3}
+  electricDash: {fileID: 6698046719384047330, guid: 74425af7a0cf01441a379fe383ca36f4,
+    type: 3}
+  electricBlock: {fileID: 6698046719384047330, guid: 74425af7a0cf01441a379fe383ca36f4,
+    type: 3}
+  earthAttack: {fileID: 8467205249193297265, guid: 68ab2b6eb2076de48aec22b3292c275a,
+    type: 3}
+  earthDash: {fileID: 8467205249193297265, guid: 68ab2b6eb2076de48aec22b3292c275a,
+    type: 3}
+  earthBlock: {fileID: 8467205249193297265, guid: 68ab2b6eb2076de48aec22b3292c275a,
+    type: 3}
+  element: 0

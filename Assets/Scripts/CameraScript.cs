@@ -16,7 +16,7 @@ public class CameraScript : MonoBehaviour {
   void Update() {
     if (player) {
       Vector3 targetPosition = new Vector3(player.transform.position.x, player.transform.position.y, this.transform.position.z);
-      this.transform.position = Vector3.Lerp(this.transform.position, targetPosition, cameraSpeed * Time.deltaTime); 
+      this.transform.position = Vector3.Lerp(this.transform.position, targetPosition, cameraSpeed * Time.deltaTime);
     }
   }
 }

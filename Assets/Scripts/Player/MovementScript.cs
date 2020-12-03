@@ -13,6 +13,8 @@ public class MovementScript : MonoBehaviour {
   [SerializeField]
   private float speed = 10f;
   [SerializeField]
+  private float airSpeed = 4f;
+  [SerializeField]
   private float jumpForce = 4f;
 
   private SpriteRenderer sprite;
@@ -24,16 +26,18 @@ public class MovementScript : MonoBehaviour {
 
   public float AttackDirectionX { get { return lastDirection; } }
 
+  private GroundedController grounded;
+
   void Start() {
     rigidbody = GetComponent<Rigidbody2D>();
     sprite = GetComponent<SpriteRenderer>();
     element = GetComponent<Element>();
     attackPoint = GameObject.Find("AttackPoint");
+    grounded = this.transform.Find("Grounded").GetComponent<GroundedController>();
   }
 
   void Update() {
     if (moving) {
-      rigidbody.velocity = new Vector2(direction.x * speed, rigidbody.velocity.y);
       if (!element.Executing) {
         sprite.flipX = direction.x < 0;
 
@@ -44,15 +48,22 @@ public class MovementScript : MonoBehaviour {
           }
         }
         lastDirection = directionAttack;
+        var targetSpeed = grounded.isGrounded ? speed : airSpeed;
+        rigidbody.velocity = new Vector2(direction.x * targetSpeed, rigidbody.velocity.y);
       } else {
-        direction.y = 0;
+        rigidbody.AddForce(direction.normalized);
       }
+
+    } else if (!element.Executing) {
+      rigidbody.velocity = new Vector2(0, rigidbody.velocity.y);
     }
   }
 
-  public void Move(InputAction.CallbackContext ctx) {
+  public void ResetYDirection() {
+    direction.y = 0;
+  }
 
-    rigidbody.velocity = new Vector2(0, rigidbody.velocity.y);
+  public void Move(InputAction.CallbackContext ctx) {
     moving = false;
     if (ctx.performed) {
       if (ctx.ReadValue<Vector2>() != Vector2.zero) {
@@ -65,8 +76,7 @@ public class MovementScript : MonoBehaviour {
   }
 
   public void Jump(InputAction.CallbackContext ctx) {
-    var isGrounded = this.transform.Find("Grounded").GetComponent<GroundedController>().isGrounded;
-    if (ctx.performed && isGrounded) {
+    if (ctx.performed && grounded.isGrounded) {
       rigidbody.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
     }
   }
