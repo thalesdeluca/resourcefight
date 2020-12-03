@@ -16,8 +16,11 @@ public abstract class Element : MonoBehaviour {
   private float blockRange;
   public float BlockRange { get { return blockRange; } }
 
+  protected bool executing;
+  public bool Executing { get { return executing; } }
 
-
+  [SerializeField]
+  protected Ability ability;
 
   public abstract void Dash(InputAction.CallbackContext context);
 

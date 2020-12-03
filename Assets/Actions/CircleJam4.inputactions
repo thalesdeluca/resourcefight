@@ -43,7 +43,7 @@
                     "id": "56dedf39-0229-4c8f-ac54-0aa553872f90",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Hold(duration=5)"
                 },
                 {
                     "name": "Block",
