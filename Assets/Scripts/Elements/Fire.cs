@@ -10,15 +10,21 @@ public class Fire : Element {
   private bool attacked = false;
   [SerializeField]
   private float attackCooldown = 1f;
+  [SerializeField]
   private float attackTime = 0;
   [SerializeField]
   private float attackImpulse = 4f;
+  [SerializeField]
+  private float attackExeTime = 0.1f;
 
   [SerializeField]
   private bool blocked = false;
   [SerializeField]
   private float blockCooldown = 1f;
+  [SerializeField]
   private float blockTime = 0;
+  [SerializeField]
+  private float blockExeTime = 1f;
 
   [SerializeField]
   private bool dashed = false;
@@ -27,11 +33,17 @@ public class Fire : Element {
   private Vector2 throwPoint = Vector2.zero;
   [SerializeField]
   private float dashCooldown = 1f;
+  [SerializeField]
   private float dashTime = 0;
+  [SerializeField]
+  private float dashForce = 1f;
+  [SerializeField]
+  private float dashExeTime = 1f;
 
   private MovementScript movement;
   private Rigidbody2D rigidbody;
   private Vector2 directionAttack;
+  public Vector2 DirectionAttack { get { return directionAttack; } }
   private float angle = 0;
 
   private GameObject effect;
@@ -44,44 +56,78 @@ public class Fire : Element {
 
   // Update is called once per frame
   void Update() {
-    if (attacked && attackTime >= attackCooldown) {
+    HandleAttack();
+    HandleBlock();
+    HandleDash();
+  }
+
+  void HandleAttack() {
+
+    if (attacked && attackTime >= attackExeTime) {
       CancelAttack();
     } else if (attacked) {
+      ResetVelocity();
       attackTime += Time.deltaTime;
+
       effect.transform.localScale = new Vector3(SIZE, attackTime * SIZE * 2, 1);
-      Debug.Log(directionAttack.normalized * (-attackImpulse));
+    } else if (!attacked && attackTime > 0) {
+      attackTime -= Time.deltaTime;
+    } else if (attackTime < 0) {
+      attackTime = 0;
     }
 
-    if (blocked && blockTime >= blockCooldown) {
+  }
+
+  void HandleBlock() {
+    if (blocked && blockTime >= blockExeTime) {
       CancelBlock();
     } else if (blocked) {
       blockTime += Time.deltaTime;
       if (!throwed) {
         rigidbody.velocity = new Vector2(0, rigidbody.velocity.y);
       }
+    } else if (!blocked && blockTime > 0) {
+      blockTime -= Time.deltaTime;
+    } else if (blockTime < 0) {
+      blockTime = 0;
     }
 
     if (throwed) {
-      effect.transform.position = Vector2.MoveTowards(effect.transform.position, throwPoint, blockTime);
+      if (!effect) {
+        effect = Instantiate(abilities.fireBlock, this.transform.position, Quaternion.identity);
+      }
 
+      effect.transform.position = Vector2.MoveTowards(effect.transform.position, throwPoint, blockTime);
+      ResetVelocity();
       if ((Vector2)effect.transform.position == throwPoint) {
         CancelBlock();
       }
     }
+  }
 
-    if (dashed && dashTime >= dashCooldown) {
-      dashed = false;
-      if (effect) {
-        Destroy(effect);
-      }
-      executing = false;
-      dashTime = 0;
+
+  void HandleDash() {
+    if (dashed && dashTime >= dashExeTime) {
+      CancelDash();
+
     } else if (dashed) {
       dashTime += Time.deltaTime;
+      var direction = Vector2.ClampMagnitude(throwPoint - (Vector2)this.transform.position, dashForce);
+      ResetVelocity();
 
-      rigidbody.MovePosition(throwPoint);
+      rigidbody.MovePosition(this.transform.position + (Vector3)direction);
+      float distance = Vector2.Distance((Vector2)rigidbody.transform.position, throwPoint);
+
+      if (distance >= 0 && distance <= 0.01) {
+        CancelDash();
+      }
+    } else if (!dashed && dashTime > 0) {
+      dashTime -= Time.deltaTime;
+    } else if (dashTime < 0) {
+      dashTime = 0;
     }
   }
+
 
   void CancelAttack() {
     attacked = false;
@@ -89,8 +135,17 @@ public class Fire : Element {
     if (effect) {
       Destroy(effect);
     }
+    attackTime = attackCooldown;
+  }
 
-    attackTime = 0;
+  void CancelDash() {
+    dashed = false;
+    executing = false;
+    if (effect) {
+      Destroy(effect);
+    }
+
+    dashTime = dashCooldown;
   }
 
   void CancelBlock() {
@@ -100,16 +155,18 @@ public class Fire : Element {
     }
     executing = false;
     throwed = false;
-    blockTime = 0;
+    blockTime = blockCooldown;
+  }
+
+  void ResetVelocity() {
+    if (executing) {
+      rigidbody.velocity = new Vector2(rigidbody.velocity.x, 0);
+    }
   }
 
 
   public override void Attack(InputAction.CallbackContext context) {
-    if (context.canceled || context.performed) {
-      executing = false;
-    }
-
-    if (!attacked && !blocked) {
+    if (!executing && attackTime == 0) {
       if (context.started) {
         var teste = context.ReadValue<float>();
 
@@ -135,7 +192,7 @@ public class Fire : Element {
 
   public override void Block(InputAction.CallbackContext context) {
     if (context.started) {
-      if (!blocked) {
+      if (!executing && blockTime == 0) {
 
         if (effect) {
           Destroy(effect);
@@ -145,10 +202,9 @@ public class Fire : Element {
 
         blocked = true;
         executing = true;
-      } else if (!throwed && effect) {
+      } else if (!throwed && blocked && effect) {
         var attackPoint = GameObject.Find("AttackPoint").GetComponent<Transform>();
-
-        rigidbody.AddForce(movement.Direction.normalized * (-attackImpulse / 2), ForceMode2D.Impulse);
+        rigidbody.AddForce(movement.Direction.normalized * (-attackImpulse), ForceMode2D.Impulse);
         throwPoint = attackPoint.position + (new Vector3(AttackRange * movement.Direction.x, AttackRange * movement.Direction.y, 0));
         effect.transform.parent = null;
         blockTime = 0;
@@ -160,21 +216,21 @@ public class Fire : Element {
 
   public override void Dash(InputAction.CallbackContext context) {
     if (context.canceled) {
-      dashed = false;
-      executing = false;
-      if (effect) {
-        Destroy(effect);
+      if (dashed) {
+        CancelDash();
       }
-      dashTime = 0;
+
     }
 
     if (context.started) {
-      if (!dashed && !blocked) {
+      if (!executing && dashTime == 0) {
         var rigidbody = GetComponent<Rigidbody2D>();
         throwPoint = rigidbody.position + (new Vector2(DashRange * movement.Direction.x, DashRange * movement.Direction.y));
-        Debug.Log(throwPoint);
+
         dashed = true;
         executing = true;
+        ResetVelocity();
+        effect = Instantiate(abilities.fireDash, this.transform.position, Quaternion.identity, this.transform);
       }
     }
 

@@ -3,27 +3,247 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+
+
 public class Water : Element {
+  const float SIZE = 0.5F;
+
+  [SerializeField]
+  private bool attacked = false;
+  [SerializeField]
+  private float attackCooldown = 1f;
+  [SerializeField]
+  private float attackTime = 0;
+  [SerializeField]
+  private float attackImpulse = 4f;
+  [SerializeField]
+  private float attackExeTime = 0.1f;
+
+  [SerializeField]
+  private bool blocked = false;
+  [SerializeField]
+  private float blockCooldown = 1f;
+  [SerializeField]
+  private float blockTime = 0;
+  [SerializeField]
+  private float blockExeTime = 1f;
+
+  [SerializeField]
+  private bool dashed = false;
+  [SerializeField]
+  private bool throwed = false;
+  private Vector2 throwPoint = Vector2.zero;
+  [SerializeField]
+  private float dashCooldown = 1f;
+  [SerializeField]
+  private float dashTime = 0;
+  [SerializeField]
+  private float dashForce = 1f;
+  [SerializeField]
+  private float dashExeTime = 1f;
+
+  private MovementScript movement;
+  private Rigidbody2D rigidbody;
+  private Vector2 directionAttack;
+  private float angle = 0;
+
+  private GameObject effect;
   // Start is called before the first frame update
   void Start() {
+    movement = GetComponent<MovementScript>();
+    rigidbody = GetComponent<Rigidbody2D>();
 
   }
 
   // Update is called once per frame
   void Update() {
+    HandleAttack();
+    HandleBlock();
+    HandleDash();
+  }
 
+  void HandleAttack() {
+
+    if (attacked && attackTime >= attackExeTime) {
+      CancelAttack();
+    } else if (attacked) {
+      ResetVelocity();
+      attackTime += Time.deltaTime;
+
+      effect.transform.localScale = new Vector3(SIZE, attackTime * SIZE * 2, 1);
+    } else if (!attacked && attackTime > 0) {
+      attackTime -= Time.deltaTime;
+    } else if (attackTime < 0) {
+      attackTime = 0;
+    }
+
+  }
+
+  void HandleBlock() {
+    if (blocked && blockTime >= blockExeTime) {
+      CancelBlock();
+    } else if (blocked) {
+      blockTime += Time.deltaTime;
+      if (!throwed) {
+        rigidbody.velocity = new Vector2(0, rigidbody.velocity.y);
+      }
+    } else if (!blocked && blockTime > 0) {
+      blockTime -= Time.deltaTime;
+    } else if (blockTime < 0) {
+      blockTime = 0;
+    }
+
+    if (throwed) {
+      if (!effect) {
+        effect = Instantiate(abilities.waterBlock, this.transform.position, Quaternion.identity);
+      }
+
+      effect.transform.position = Vector2.MoveTowards(effect.transform.position, throwPoint, blockTime);
+      ResetVelocity();
+      if ((Vector2)effect.transform.position == throwPoint) {
+        CancelBlock();
+      }
+    }
+  }
+
+
+  void HandleDash() {
+    if (dashed && dashTime >= dashExeTime) {
+      CancelDash();
+
+    } else if (dashed) {
+      dashTime += Time.deltaTime;
+      var direction = Vector2.ClampMagnitude(throwPoint - (Vector2)this.transform.position, dashForce);
+      ResetVelocity();
+
+      rigidbody.MovePosition(this.transform.position + (Vector3)direction);
+      float distance = Vector2.Distance((Vector2)rigidbody.transform.position, throwPoint);
+
+      if (distance >= 0 && distance <= 0.01) {
+        CancelDash();
+      }
+    } else if (!dashed && dashTime > 0) {
+      dashTime -= Time.deltaTime;
+    } else if (dashTime < 0) {
+      dashTime = 0;
+    }
+  }
+
+
+  void CancelAttack() {
+    attacked = false;
+    executing = false;
+    if (effect) {
+      Destroy(effect);
+    }
+    attackTime = attackCooldown;
+  }
+
+  void CancelDash() {
+    dashed = false;
+    executing = false;
+    if (effect) {
+      Destroy(effect);
+    }
+
+    dashTime = dashCooldown;
+  }
+
+  void CancelBlock() {
+    blocked = false;
+    if (effect) {
+      Destroy(effect);
+    }
+    executing = false;
+    throwed = false;
+    blockTime = blockCooldown;
+  }
+
+  void ResetVelocity() {
+    if (executing) {
+      rigidbody.velocity = new Vector2(rigidbody.velocity.x, 0);
+    }
   }
 
 
   public override void Attack(InputAction.CallbackContext context) {
-    throw new System.NotImplementedException();
+    if (!executing && attackTime == 0) {
+      if (context.started) {
+        var teste = context.ReadValue<float>();
+
+        var attackPoint = GameObject.Find("AttackPoint").GetComponent<Transform>();
+        Vector3 position = attackPoint.position + (new Vector3(AttackRange / 2f, 0, 0));
+
+        angle = Vector2.Angle(movement.Direction, Vector2.right);
+        angle = angle > 90 ? angle % 90 : angle;
+        directionAttack = movement.Direction;
+
+        attackPoint.parent.rotation = Quaternion.Euler(0, directionAttack.x > 0 ? 0 : 180, directionAttack.y > 0 ? angle : -angle);
+        effect = Instantiate(abilities.waterAttack, attackPoint.position, Quaternion.identity, attackPoint);
+        effect.transform.localRotation = Quaternion.Euler(0, directionAttack.x > 180 ? 0 : 180, -90);
+        effect.transform.localScale = Vector2.zero;
+
+        rigidbody.AddForce(directionAttack.normalized * (-attackImpulse), ForceMode2D.Impulse);
+
+        attacked = true;
+        executing = true;
+      }
+    }
   }
 
   public override void Block(InputAction.CallbackContext context) {
-    throw new System.NotImplementedException();
+    if (context.started) {
+      if (!executing && blockTime == 0) {
+
+        if (effect) {
+          Destroy(effect);
+        }
+        effect = Instantiate(abilities.waterBlock, this.transform.position, Quaternion.identity, this.transform);
+
+
+        blocked = true;
+        executing = true;
+      } else if (!throwed && blocked && effect) {
+        var attackPoint = GameObject.Find("AttackPoint").GetComponent<Transform>();
+        rigidbody.AddForce(movement.Direction.normalized * (-attackImpulse), ForceMode2D.Impulse);
+        throwPoint = attackPoint.position + (new Vector3(AttackRange * movement.Direction.x, AttackRange * movement.Direction.y, 0));
+        effect.transform.parent = null;
+        blockTime = 0;
+        throwed = true;
+      }
+    }
+
   }
 
   public override void Dash(InputAction.CallbackContext context) {
-    throw new System.NotImplementedException();
+    if (context.canceled) {
+      if (dashed) {
+        CancelDash();
+      }
+
+    }
+
+    if (context.started) {
+      if (!executing && dashTime == 0) {
+        var rigidbody = GetComponent<Rigidbody2D>();
+        throwPoint = rigidbody.position + (new Vector2(DashRange * movement.Direction.x, DashRange * movement.Direction.y));
+
+        dashed = true;
+        executing = true;
+        ResetVelocity();
+        effect = Instantiate(abilities.waterDash, this.transform.position, Quaternion.identity, this.transform);
+      }
+    }
+
+  }
+
+
+  void OnDrawGizmos() {
+    Gizmos.color = Color.red;
+    if (blocked) {
+      Gizmos.DrawSphere(this.transform.position, BlockRange);
+    }
+
+
   }
 }

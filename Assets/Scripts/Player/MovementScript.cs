@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 public class MovementScript : MonoBehaviour {
   // Start is called before the first frame update
   private Rigidbody2D rigidbody;
-  private Vector2 direction = new Vector2(1, 0);
+  private Vector2 direction = new Vector2(0, 0);
   private bool moving = true;
   public Vector2 Direction { get { return direction; } }
 
@@ -50,8 +50,6 @@ public class MovementScript : MonoBehaviour {
         lastDirection = directionAttack;
         var targetSpeed = grounded.isGrounded ? speed : airSpeed;
         rigidbody.velocity = new Vector2(direction.x * targetSpeed, rigidbody.velocity.y);
-      } else {
-        rigidbody.AddForce(direction.normalized);
       }
 
     } else if (!element.Executing) {
