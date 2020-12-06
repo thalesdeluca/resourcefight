@@ -42,8 +42,7 @@ public class Fire : Element {
 
   private MovementScript movement;
   private Rigidbody2D rigidbody;
-  private Vector2 directionAttack;
-  public Vector2 DirectionAttack { get { return directionAttack; } }
+
   private float angle = 0;
 
   private GameObject effect;
@@ -51,7 +50,6 @@ public class Fire : Element {
   void Start() {
     movement = GetComponent<MovementScript>();
     rigidbody = GetComponent<Rigidbody2D>();
-
   }
 
   // Update is called once per frame
@@ -176,6 +174,8 @@ public class Fire : Element {
         angle = Vector2.Angle(movement.Direction, Vector2.right);
         angle = angle > 90 ? angle % 90 : angle;
         directionAttack = movement.Direction;
+        Knockback = knockback;
+
 
         attackPoint.parent.rotation = Quaternion.Euler(0, directionAttack.x > 0 ? 0 : 180, directionAttack.y > 0 ? angle : -angle);
         effect = Instantiate(abilities.fireAttack, attackPoint.position, Quaternion.identity, attackPoint);
@@ -198,15 +198,23 @@ public class Fire : Element {
           Destroy(effect);
         }
         effect = Instantiate(abilities.fireBlock, this.transform.position, Quaternion.identity, this.transform);
+        directionAttack = Vector2.zero;
+        Knockback = knockback / 2f;
 
 
         blocked = true;
         executing = true;
       } else if (!throwed && blocked && effect) {
+        Knockback = knockback;
+
         var attackPoint = GameObject.Find("AttackPoint").GetComponent<Transform>();
+
         rigidbody.AddForce(movement.Direction.normalized * (-attackImpulse), ForceMode2D.Impulse);
+        directionAttack = movement.Direction.normalized;
+
         throwPoint = attackPoint.position + (new Vector3(AttackRange * movement.Direction.x, AttackRange * movement.Direction.y, 0));
         effect.transform.parent = null;
+
         blockTime = 0;
         throwed = true;
       }
@@ -225,10 +233,14 @@ public class Fire : Element {
     if (context.started) {
       if (!executing && dashTime == 0) {
         var rigidbody = GetComponent<Rigidbody2D>();
+
         throwPoint = rigidbody.position + (new Vector2(DashRange * movement.Direction.x, DashRange * movement.Direction.y));
+        directionAttack = movement.Direction.normalized;
+        Knockback = knockback / 2f;
 
         dashed = true;
         executing = true;
+
         ResetVelocity();
         effect = Instantiate(abilities.fireDash, this.transform.position, Quaternion.identity, this.transform);
       }

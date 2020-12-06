@@ -6,6 +6,8 @@ public class CameraScript : MonoBehaviour {
   private GameObject player;
   public float cameraSpeed = 4f;
 
+  public float offsetY = 0.05f;
+
 
   // Start is called before the first frame update
   void Start() {
@@ -15,7 +17,7 @@ public class CameraScript : MonoBehaviour {
   // Update is called once per frame
   void Update() {
     if (player) {
-      Vector3 targetPosition = new Vector3(player.transform.position.x, player.transform.position.y, this.transform.position.z);
+      Vector3 targetPosition = new Vector3(player.transform.position.x, player.transform.position.y + offsetY, this.transform.position.z);
       this.transform.position = Vector3.Lerp(this.transform.position, targetPosition, cameraSpeed * Time.deltaTime);
     }
   }

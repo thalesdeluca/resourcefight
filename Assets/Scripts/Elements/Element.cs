@@ -23,6 +23,15 @@ public abstract class Element : MonoBehaviour {
   [SerializeField]
   protected Ability abilities;
 
+  protected Vector2 directionAttack;
+  public Vector2 DirectionAttack { get { return directionAttack; } }
+
+  [SerializeField]
+  protected float knockback;
+
+  public float Knockback { get; protected set; }
+
+
   public abstract void Dash(InputAction.CallbackContext context);
 
   public abstract void Attack(InputAction.CallbackContext context);

@@ -44,7 +44,7 @@ public class Water : Element {
 
   private MovementScript movement;
   private Rigidbody2D rigidbody;
-  private Vector2 directionAttack;
+
   private float angle = 0;
 
   private GameObject effect;
@@ -176,7 +176,9 @@ public class Water : Element {
 
         angle = Vector2.Angle(movement.Direction, Vector2.right);
         angle = angle > 90 ? angle % 90 : angle;
-        directionAttack = movement.Direction;
+        directionAttack = movement.Direction.normalized;
+        Knockback = knockback;
+
 
         attackPoint.parent.rotation = Quaternion.Euler(0, directionAttack.x > 0 ? 0 : 180, directionAttack.y > 0 ? angle : -angle);
         effect = Instantiate(abilities.waterAttack, attackPoint.position, Quaternion.identity, attackPoint);
@@ -199,6 +201,8 @@ public class Water : Element {
           Destroy(effect);
         }
         effect = Instantiate(abilities.waterBlock, this.transform.position, Quaternion.identity, this.transform);
+        directionAttack = Vector2.zero;
+        Knockback = knockback / 2f;
 
 
         blocked = true;
@@ -206,6 +210,9 @@ public class Water : Element {
       } else if (!throwed && blocked && effect) {
         var attackPoint = GameObject.Find("AttackPoint").GetComponent<Transform>();
         rigidbody.AddForce(movement.Direction.normalized * (-attackImpulse), ForceMode2D.Impulse);
+        Knockback = knockback;
+        directionAttack = movement.Direction.normalized;
+
         throwPoint = attackPoint.position + (new Vector3(AttackRange * movement.Direction.x, AttackRange * movement.Direction.y, 0));
         effect.transform.parent = null;
         blockTime = 0;
@@ -227,6 +234,9 @@ public class Water : Element {
       if (!executing && dashTime == 0) {
         var rigidbody = GetComponent<Rigidbody2D>();
         throwPoint = rigidbody.position + (new Vector2(DashRange * movement.Direction.x, DashRange * movement.Direction.y));
+        directionAttack = movement.Direction.normalized;
+        Knockback = knockback / 2f;
+
 
         dashed = true;
         executing = true;

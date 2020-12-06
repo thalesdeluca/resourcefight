@@ -24,9 +24,9 @@ MonoBehaviour:
     type: 3}
   waterBlock: {fileID: 6566632429871850333, guid: f28df185c79b85945b18f1059a0eeefb,
     type: 3}
-  electricAttack: {fileID: 6698046719384047330, guid: 74425af7a0cf01441a379fe383ca36f4,
+  electricAttack: {fileID: 2324220789187060802, guid: 04c5fcbcc5e43e948bcf136c6765713f,
     type: 3}
-  electricDash: {fileID: 6698046719384047330, guid: 74425af7a0cf01441a379fe383ca36f4,
+  electricDash: {fileID: 2324220789187060802, guid: 04c5fcbcc5e43e948bcf136c6765713f,
     type: 3}
   electricBlock: {fileID: 6698046719384047330, guid: 74425af7a0cf01441a379fe383ca36f4,
     type: 3}

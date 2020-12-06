@@ -43,7 +43,7 @@ public class Electric : Element {
 
   private MovementScript movement;
   private Rigidbody2D rigidbody;
-  private Vector2 directionAttack;
+
   private float angle = 0;
 
   private GameObject effect;
@@ -51,7 +51,6 @@ public class Electric : Element {
   void Start() {
     movement = GetComponent<MovementScript>();
     rigidbody = GetComponent<Rigidbody2D>();
-
   }
 
   // Update is called once per frame
@@ -96,8 +95,7 @@ public class Electric : Element {
       if (!effect) {
         effect = Instantiate(abilities.electricBlock, this.transform.position, Quaternion.identity);
       }
-      var distance = Vector2.Distance(effect.transform.localScale, throwPoint) / 10f;
-      Debug.Log(distance + "    " + throwPoint);
+      var distance = Vector2.Distance(effect.transform.localScale, throwPoint) / 2f;
       effect.transform.localScale += new Vector3(distance, distance, 0);
 
       ResetVelocity();
@@ -177,7 +175,8 @@ public class Electric : Element {
 
         angle = Vector2.Angle(movement.Direction, Vector2.right);
         angle = angle > 90 ? angle % 90 : angle;
-        directionAttack = movement.Direction;
+        directionAttack = movement.Direction.normalized;
+        Knockback = knockback;
 
         attackPoint.parent.rotation = Quaternion.Euler(0, directionAttack.x > 0 ? 0 : 180, directionAttack.y > 0 ? angle : -angle);
         effect = Instantiate(abilities.electricAttack, attackPoint.position, Quaternion.identity, attackPoint);
@@ -200,12 +199,14 @@ public class Electric : Element {
           Destroy(effect);
         }
         effect = Instantiate(abilities.electricBlock, this.transform.position, Quaternion.identity, this.transform);
-
+        directionAttack = Vector2.zero;
+        Knockback = knockback / 2f;
         blocked = true;
         executing = true;
       } else if (!throwed && blocked && effect) {
         var attackPoint = GameObject.Find("AttackPoint").GetComponent<Transform>();
         throwPoint = new Vector3(BlockRange, BlockRange, 0);
+        Knockback = knockback;
 
         blockTime = 0;
         throwed = true;
@@ -226,7 +227,8 @@ public class Electric : Element {
       if (!executing && dashTime == 0) {
         var rigidbody = GetComponent<Rigidbody2D>();
         throwPoint = rigidbody.position + (new Vector2(DashRange * movement.Direction.x, DashRange * movement.Direction.y));
-
+        directionAttack = movement.Direction.normalized;
+        Knockback = knockback / 2f;
         dashed = true;
         executing = true;
         ResetVelocity();
