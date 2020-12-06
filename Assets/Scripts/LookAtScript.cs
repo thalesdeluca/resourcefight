@@ -4,7 +4,11 @@ using UnityEngine;
 using System;
 
 public class LookAtScript : MonoBehaviour {
+  private const float BOUND_X = 2.9f;
+  private const float BOUND_Y = 1.5f;
 
+  private const float BOUND_MAX_X = 3.2f;
+  private const float BOUND_MAX_Y = 1.8f;
   private Camera camera;
 
   [SerializeField]
@@ -27,7 +31,7 @@ public class LookAtScript : MonoBehaviour {
   // Update is called once per frame
   void Update() {
     Vector2 isVisible = camera.WorldToViewportPoint(target.position);
-    if ((isVisible.x > 0 && isVisible.x <= 1) && (isVisible.y > 0 && isVisible.y <= 1)) {
+    if ((isVisible.x > 0 && isVisible.x < 1) && (isVisible.y > 0 && isVisible.y < 1)) {
       if (pointer) {
         Destroy(pointer);
       }
@@ -35,29 +39,45 @@ public class LookAtScript : MonoBehaviour {
       var angle = Vector2.Angle(target.position - player.transform.position, Vector2.up);
 
       Vector3 cameraPoint = isVisible;
-      Debug.Log("camera point" + Math.Round(cameraPoint.x, 1) + "   " + cameraPoint + "   " + isVisible);
+      Debug.Log("camera point" + Math.Round(cameraPoint.x, 1) + "   " + cameraPoint.x + "   " + isVisible);
 
-      if (Math.Round(cameraPoint.x, 1) > 0.5f) {
-        if (cameraPoint.x < 0.7) {
-          cameraPoint.x = cameraPoint.x - 0.3f;
+      //RIGHT SIDE
+      if (cameraPoint.x > 0.5) {
+
+        if (cameraPoint.x < 1) {
+          cameraPoint.x -= 0.5f;
+          cameraPoint.x = (BOUND_X * cameraPoint.x) / 0.5f;
         } else {
-          cameraPoint.x = Math.Round(cameraPoint.x, 1) < 2.1 ? cameraPoint.x : 2.1f;
+          cameraPoint.x = BOUND_X;
         }
-      } else if (Math.Round(cameraPoint.x, 1) < 0.5f) {
-        if (cameraPoint.x > -0.7) {
-          cameraPoint.x = cameraPoint.x - 0.3f;
+
+      } else if (cameraPoint.x < 0.5) {//LEFT SIDE
+        if (cameraPoint.x > 0) {
+          cameraPoint.x = (BOUND_X * cameraPoint.x) / 0.5f;
+          cameraPoint.x += -BOUND_X;
         } else {
-          cameraPoint.x = Math.Round(cameraPoint.x, 1) >= 0 ? cameraPoint.x - 0.5f : -2.1f;
+          cameraPoint.x = -BOUND_X;
         }
-      } else {
-        cameraPoint.x = 0;
       }
 
-      if (Math.Round(cameraPoint.y, 1) != 0.5f) {
-        cameraPoint.y = Math.Round(cameraPoint.y, 1) > 1.2f ? 0.8f : cameraPoint.y - 0.5f;
-      } else {
-        cameraPoint.y = 0;
+      if (cameraPoint.y >= 0.5) {
+        if (cameraPoint.y < 1) {
+          cameraPoint.y -= 0.5f;
+          cameraPoint.y = (BOUND_Y * cameraPoint.y) / 0.5f;
+        } else {
+          cameraPoint.y = BOUND_Y;
+        }
+
+      } else if (cameraPoint.y < 0.5) {//LEFT SIDE
+        if (cameraPoint.y > 0) {
+          cameraPoint.y = (BOUND_Y * cameraPoint.y) / 0.5f;
+          cameraPoint.y += -BOUND_Y;
+        } else {
+          cameraPoint.y = -BOUND_Y;
+
+        }
       }
+
 
       cameraPoint.z = 10f;
 

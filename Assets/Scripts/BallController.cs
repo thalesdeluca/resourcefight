@@ -41,11 +41,11 @@ public class BallController : MonoBehaviour {
     if (!hit && hitTime == 0) {
       hitTime = 0;
       hit = true;
-      Debug.Log(element.Knockback + " * " + direction);
 
       rigidbody.velocity = new Vector2(0, 0);
-
-      rigidbody.AddForce(direction.normalized * element.Knockback, ForceMode2D.Impulse);
+      var force = new Vector2(direction.x * element.Knockback, direction.y * element.Knockback);
+      Debug.Log(force + " " + direction);
+      rigidbody.AddForce(force, ForceMode2D.Impulse);
       hitMaxTime = element.Knockback / 10f;
       hits++;
     }
@@ -58,7 +58,8 @@ public class BallController : MonoBehaviour {
       lastCollider = other;
       if (element.DirectionAttack == Vector2.zero) {
         direction = this.transform.position - element.transform.position;
-
+        direction *= element.Knockback;
+        direction = direction.normalized;
       } else {
         direction = (Vector3)element.DirectionAttack;
 
