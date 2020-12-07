@@ -39,7 +39,6 @@ public class LookAtScript : MonoBehaviour {
       var angle = Vector2.Angle(target.position - player.transform.position, Vector2.up);
 
       Vector3 cameraPoint = isVisible;
-      Debug.Log("camera point" + Math.Round(cameraPoint.x, 1) + "   " + cameraPoint.x + "   " + isVisible);
 
       //RIGHT SIDE
       if (cameraPoint.x > 0.5) {

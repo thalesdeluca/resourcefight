@@ -48,11 +48,15 @@ public class Water : Element {
   private float angle = 0;
 
   private GameObject effect;
+
+  private GroundedController grounded;
+
+
   // Start is called before the first frame update
   void Start() {
     movement = GetComponent<MovementScript>();
     rigidbody = GetComponent<Rigidbody2D>();
-
+    grounded = GameObject.Find("Grounded").GetComponent<GroundedController>();
   }
 
   // Update is called once per frame
@@ -253,7 +257,11 @@ public class Water : Element {
     if (blocked) {
       Gizmos.DrawSphere(this.transform.position, BlockRange);
     }
+  }
 
-
+  void OnCollisionEnter2D(Collision2D other) {
+    if (!grounded.isGrounded && dashed) {
+      CancelDash();
+    }
   }
 }

@@ -51,11 +51,13 @@ public class Earth : Element {
   private float angle = 0;
 
   private GameObject effect;
+
+  private GroundedController grounded;
   // Start is called before the first frame update
   void Start() {
     movement = GetComponent<MovementScript>();
     rigidbody = GetComponent<Rigidbody2D>();
-
+    grounded = GameObject.Find("Grounded").GetComponent<GroundedController>();
   }
 
   // Update is called once per frame
@@ -97,15 +99,19 @@ public class Earth : Element {
     }
 
     if (throwed) {
-      if (!effect) {
-        effect = Instantiate(abilities.earthBlock, this.transform.position, Quaternion.identity);
+      var distance = Vector2.Distance(effect.transform.localScale, throwPoint) / 2f;
+
+      Debug.Log(distance + " >= " + BlockRange);
+
+      if (distance >= BlockRange) {
+        if (!effect) {
+          effect = Instantiate(abilities.earthBlock, this.transform.position, Quaternion.identity);
+        }
+      } else {
+        effect.transform.localScale += new Vector3(distance, distance, 0);
       }
 
-      effect.transform.position = Vector2.MoveTowards(effect.transform.position, throwPoint, blockTime);
       ResetVelocity();
-      if ((Vector2)effect.transform.position == throwPoint) {
-        CancelBlock();
-      }
     }
   }
 
@@ -122,6 +128,7 @@ public class Earth : Element {
       rigidbody.MovePosition(this.transform.position + (Vector3)direction);
       float distance = Vector2.Distance((Vector2)rigidbody.transform.position, throwPoint);
 
+      Debug.Log(distance);
       if (distance >= 0 && distance <= 0.01) {
         CancelDash();
       }
@@ -212,13 +219,27 @@ public class Earth : Element {
         executing = true;
       } else if (!throwed && blocked && effect) {
         var attackPoint = GameObject.Find("AttackPoint").GetComponent<Transform>();
-        rigidbody.AddForce(movement.Direction.normalized * (-attackImpulse), ForceMode2D.Impulse);
-        directionAttack = movement.Direction.normalized;
-        Knockback = knockback;
 
+        if (!effect) {
+          effect = Instantiate(abilities.earthBlock, this.transform.position, Quaternion.identity, this.transform);
+        }
+
+        effect.transform.parent = attackPoint;
+
+        Knockback = knockback;
+        directionAttack = movement.Direction.normalized;
 
         throwPoint = attackPoint.position + (new Vector3(AttackRange * movement.Direction.x, AttackRange * movement.Direction.y, 0));
-        effect.transform.parent = null;
+
+        Vector3 position = attackPoint.position + (new Vector3(AttackRange / 2f, 0, 0));
+
+        angle = Vector2.Angle(movement.Direction, Vector2.right);
+        angle = angle > 90 ? angle % 90 : angle;
+
+        attackPoint.parent.rotation = Quaternion.Euler(0, directionAttack.x > 0 ? 0 : 180, directionAttack.y > 0 ? angle : -angle);
+
+        effect.transform.localRotation = Quaternion.Euler(0, directionAttack.x > 180 ? 0 : 180, -90);
+
         blockTime = 0;
         throwed = true;
       }
@@ -245,7 +266,7 @@ public class Earth : Element {
         dashed = true;
         executing = true;
         ResetVelocity();
-        effect = Instantiate(abilities.earthDash, this.transform.position, Quaternion.identity, this.transform);
+        effect = Instantiate(abilities.earthDash, this.transform.position, Quaternion.identity);
       }
     }
 
@@ -257,7 +278,11 @@ public class Earth : Element {
     if (blocked) {
       Gizmos.DrawSphere(this.transform.position, BlockRange);
     }
+  }
 
-
+  void OnCollisionEnter2D(Collision2D other) {
+    if (!grounded.isGrounded && dashed) {
+      CancelDash();
+    }
   }
 }
