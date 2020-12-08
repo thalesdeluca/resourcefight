@@ -29,7 +29,7 @@ public class BallController : MonoBehaviour {
       hit = false;
       Time.timeScale = 1;
     } else if (hit) {
-      Time.timeScale = 0;
+      Time.timeScale = 0.1f;
       hitTime += Time.unscaledDeltaTime;
     } else if (!hit && hitTime > 0) {
       hitTime -= Time.deltaTime;
@@ -46,7 +46,7 @@ public class BallController : MonoBehaviour {
       var force = new Vector2(direction.x * element.Knockback, direction.y * element.Knockback);
       Debug.Log(force + " " + direction);
       rigidbody.AddForce(force, ForceMode2D.Impulse);
-      hitMaxTime = element.Knockback / 10f;
+      hitMaxTime = element.Knockback / 15f;
       hits++;
     }
 

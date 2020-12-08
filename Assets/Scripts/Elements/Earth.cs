@@ -72,8 +72,8 @@ public class Earth : Element {
     if (attacked && attackTime >= attackExeTime) {
       CancelAttack();
     } else if (attacked) {
-      ResetVelocity();
       attackTime += Time.deltaTime;
+      rigidbody.velocity = Vector2.zero;
 
       effect.transform.localScale = new Vector3(SIZE, attackTime * SIZE * 2, 1);
     } else if (!attacked && attackTime > 0) {
@@ -129,7 +129,7 @@ public class Earth : Element {
       float distance = Vector2.Distance((Vector2)rigidbody.transform.position, throwPoint);
 
       Debug.Log(distance);
-      if (distance >= 0 && distance <= 0.01) {
+      if (distance >= 0 && distance <= 0.03) {
         CancelDash();
       }
     } else if (!dashed && dashTime > 0) {
@@ -195,7 +195,7 @@ public class Earth : Element {
         effect.transform.localRotation = Quaternion.Euler(0, directionAttack.x > 180 ? 0 : 180, -90);
         effect.transform.localScale = Vector2.zero;
 
-        rigidbody.AddForce(directionAttack.normalized * (-attackImpulse), ForceMode2D.Impulse);
+        rigidbody.velocity = Vector2.zero;
 
         attacked = true;
         executing = true;
@@ -229,7 +229,7 @@ public class Earth : Element {
         Knockback = knockback;
         directionAttack = movement.Direction.normalized;
 
-        throwPoint = attackPoint.position + (new Vector3(AttackRange * movement.Direction.x, AttackRange * movement.Direction.y, 0));
+        throwPoint = attackPoint.position + (new Vector3(AttackRange, AttackRange, 0));
 
         Vector3 position = attackPoint.position + (new Vector3(AttackRange / 2f, 0, 0));
 
@@ -262,11 +262,24 @@ public class Earth : Element {
         directionAttack = movement.Direction.normalized;
         Knockback = knockback / 2f;
 
+        var attackPoint = GameObject.Find("point").GetComponent<Transform>();
+
+        effect = Instantiate(abilities.earthDash, this.transform.position, Quaternion.identity);
+        effect.transform.parent = attackPoint;
+
+
+        angle = Vector2.Angle(movement.Direction, Vector2.right);
+        angle = angle > 90 ? angle % 90 : angle;
+
+        attackPoint.rotation = Quaternion.Euler(0, directionAttack.x > 0 ? 180 : 0, directionAttack.y > 0 ? -angle : angle);
+
+        effect.transform.localRotation = Quaternion.Euler(0, directionAttack.x > 180 ? 0 : 180, -90);
+
 
         dashed = true;
         executing = true;
         ResetVelocity();
-        effect = Instantiate(abilities.earthDash, this.transform.position, Quaternion.identity);
+
       }
     }
 

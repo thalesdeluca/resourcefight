@@ -71,9 +71,8 @@ public class Water : Element {
     if (attacked && attackTime >= attackExeTime) {
       CancelAttack();
     } else if (attacked) {
-      ResetVelocity();
       attackTime += Time.deltaTime;
-
+      rigidbody.velocity = Vector2.zero;
       effect.transform.localScale = new Vector3(SIZE, attackTime * SIZE * 2, 1);
     } else if (!attacked && attackTime > 0) {
       attackTime -= Time.deltaTime;
@@ -98,15 +97,21 @@ public class Water : Element {
     }
 
     if (throwed) {
-      if (!effect) {
-        effect = Instantiate(abilities.waterBlock, this.transform.position, Quaternion.identity);
+      float distance = Vector2.Distance(effect.transform.localScale, throwPoint);
+
+      Debug.Log(distance + " >= " + effect.transform.localScale + " " + throwPoint);
+
+      if (distance >= 0 && distance <= BlockRange / 5f) {
+        if (!effect) {
+          effect = Instantiate(abilities.waterBlock, this.transform.position, Quaternion.identity);
+        }
+
+        CancelBlock();
+      } else {
+        effect.transform.localScale += new Vector3(0, BlockRange / 5f, 0);
       }
 
-      effect.transform.position = Vector2.MoveTowards(effect.transform.position, throwPoint, blockTime);
       ResetVelocity();
-      if ((Vector2)effect.transform.position == throwPoint) {
-        CancelBlock();
-      }
     }
   }
 
@@ -123,7 +128,9 @@ public class Water : Element {
       rigidbody.MovePosition(this.transform.position + (Vector3)direction);
       float distance = Vector2.Distance((Vector2)rigidbody.transform.position, throwPoint);
 
-      if (distance >= 0 && distance <= 0.01) {
+      Debug.Log("dash " + distance);
+
+      if (distance >= 0 && distance <= 0.03) {
         CancelDash();
       }
     } else if (!dashed && dashTime > 0) {
@@ -144,6 +151,7 @@ public class Water : Element {
   }
 
   void CancelDash() {
+    Debug.Log("CancelDash");
     dashed = false;
     executing = false;
     if (effect) {
@@ -189,7 +197,7 @@ public class Water : Element {
         effect.transform.localRotation = Quaternion.Euler(0, directionAttack.x > 180 ? 0 : 180, -90);
         effect.transform.localScale = Vector2.zero;
 
-        rigidbody.AddForce(directionAttack.normalized * (-attackImpulse), ForceMode2D.Impulse);
+        rigidbody.velocity = Vector2.zero;
 
         attacked = true;
         executing = true;
@@ -212,13 +220,31 @@ public class Water : Element {
         blocked = true;
         executing = true;
       } else if (!throwed && blocked && effect) {
-        var attackPoint = GameObject.Find("AttackPoint").GetComponent<Transform>();
-        rigidbody.AddForce(movement.Direction.normalized * (-attackImpulse), ForceMode2D.Impulse);
+        var attackPoint = GameObject.Find("point").GetComponent<Transform>();
+
+        if (!effect) {
+          effect = Instantiate(abilities.waterBlock, this.transform.position, Quaternion.identity, this.transform);
+        }
+        effect.transform.parent = attackPoint;
+
+
         Knockback = knockback;
         directionAttack = movement.Direction.normalized;
 
-        throwPoint = attackPoint.position + (new Vector3(AttackRange * movement.Direction.x, AttackRange * movement.Direction.y, 0));
-        effect.transform.parent = null;
+        throwPoint = effect.transform.localScale + (new Vector3(0, BlockRange, 0));
+        Debug.Log("Angle: " + throwPoint);
+        Vector3 position = attackPoint.position + (new Vector3(AttackRange / 2f, 0, 0));
+
+
+
+        angle = Vector2.Angle(movement.Direction, Vector2.right);
+        angle = angle > 90 ? angle % 90 : angle;
+
+        attackPoint.rotation = Quaternion.Euler(0, directionAttack.x > 0 ? 0 : 180, directionAttack.y > 0 ? angle : -angle);
+
+        effect.transform.localRotation = Quaternion.Euler(0, directionAttack.x > 180 ? 0 : 180, -90);
+
+
         blockTime = 0;
         throwed = true;
       }
@@ -235,17 +261,30 @@ public class Water : Element {
     }
 
     if (context.started) {
-      if (!executing && dashTime == 0) {
+      if (!executing && !dashed && dashTime == 0) {
         var rigidbody = GetComponent<Rigidbody2D>();
         throwPoint = rigidbody.position + (new Vector2(DashRange * movement.Direction.x, DashRange * movement.Direction.y));
         directionAttack = movement.Direction.normalized;
         Knockback = knockback / 2f;
 
+        var attackPoint = GameObject.Find("point").GetComponent<Transform>();
+
+        effect = Instantiate(abilities.waterDash, this.transform.position, Quaternion.identity);
+        effect.transform.parent = attackPoint;
+
+
+        angle = Vector2.Angle(movement.Direction, Vector2.right);
+        angle = angle > 90 ? angle % 90 : angle;
+
+        attackPoint.rotation = Quaternion.Euler(0, directionAttack.x > 0 ? 180 : 0, directionAttack.y > 0 ? -angle : angle);
+
+        effect.transform.localRotation = Quaternion.Euler(0, directionAttack.x > 180 ? 0 : 180, -90);
+
 
         dashed = true;
         executing = true;
         ResetVelocity();
-        effect = Instantiate(abilities.waterDash, this.transform.position, Quaternion.identity, this.transform);
+
       }
     }
 

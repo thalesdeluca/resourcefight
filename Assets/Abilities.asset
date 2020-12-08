@@ -22,7 +22,7 @@ MonoBehaviour:
     type: 3}
   waterDash: {fileID: 6566632429871850333, guid: f28df185c79b85945b18f1059a0eeefb,
     type: 3}
-  waterBlock: {fileID: 6566632429871850333, guid: f28df185c79b85945b18f1059a0eeefb,
+  waterBlock: {fileID: 8728539027183231410, guid: cfb9253b01541c545af2a025526f0613,
     type: 3}
   electricAttack: {fileID: 2324220789187060802, guid: 04c5fcbcc5e43e948bcf136c6765713f,
     type: 3}
