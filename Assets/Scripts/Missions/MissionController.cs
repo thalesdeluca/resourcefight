@@ -41,7 +41,7 @@ public class MissionController : MonoBehaviour {
     }
   }
 
-  void FinishMission(bool succeeded, float time) {
+  public void FinishMission(bool succeeded, float time) {
     if (missionSystem.missions.Count > 0) {
       missionSystem.missionsFinished.Add(new Mission(missionSystem.missions.Peek(), succeeded, time));
       missionSystem.missions.Dequeue();

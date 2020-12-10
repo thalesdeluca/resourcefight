@@ -1,0 +1,5156 @@
+fileFormatVersion: 2
+guid: eab8503ecee7a6549b251b3fa4104089
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3550026287056705684
+    second: controller_switch_0
+  - first:
+      213: -2285987241102480147
+    second: controller_switch_1
+  - first:
+      213: -7430744782131920199
+    second: controller_switch_2
+  - first:
+      213: -8209055105831481733
+    second: controller_switch_3
+  - first:
+      213: -8145875979810260847
+    second: controller_switch_4
+  - first:
+      213: 1132083810996236386
+    second: controller_switch_5
+  - first:
+      213: -2332231055824106883
+    second: controller_switch_6
+  - first:
+      213: 3979188618968394112
+    second: controller_switch_7
+  - first:
+      213: -2345074938302473785
+    second: controller_switch_8
+  - first:
+      213: 8394357262200318569
+    second: controller_switch_9
+  - first:
+      213: -4082319570135358412
+    second: controller_switch_10
+  - first:
+      213: -1555284819104234673
+    second: controller_switch_11
+  - first:
+      213: 3871869918005194328
+    second: controller_switch_12
+  - first:
+      213: -1033050695588171144
+    second: controller_switch_13
+  - first:
+      213: 2484169541625408319
+    second: controller_switch_14
+  - first:
+      213: 5284784304887382644
+    second: controller_switch_15
+  - first:
+      213: 5424837349501428131
+    second: controller_switch_16
+  - first:
+      213: -228263615302227014
+    second: controller_switch_17
+  - first:
+      213: 642072274442150794
+    second: controller_switch_18
+  - first:
+      213: 6710630505164507323
+    second: controller_switch_19
+  - first:
+      213: 9104954657912904484
+    second: controller_switch_20
+  - first:
+      213: 3573119327582306962
+    second: controller_switch_21
+  - first:
+      213: -1416806248127384765
+    second: controller_switch_22
+  - first:
+      213: -4402982554117844747
+    second: controller_switch_23
+  - first:
+      213: -8865091839346317875
+    second: controller_switch_24
+  - first:
+      213: -7545948515338620348
+    second: controller_switch_25
+  - first:
+      213: -5461476676743978266
+    second: controller_switch_26
+  - first:
+      213: 2331233036017922888
+    second: controller_switch_27
+  - first:
+      213: -2466923912197827338
+    second: controller_switch_28
+  - first:
+      213: 1563472856467131741
+    second: controller_switch_29
+  - first:
+      213: 5380588300792781818
+    second: controller_switch_30
+  - first:
+      213: 1086057748222283295
+    second: controller_switch_31
+  - first:
+      213: 2799497959947373889
+    second: controller_switch_32
+  - first:
+      213: -146815260565404640
+    second: controller_switch_33
+  - first:
+      213: 1417952213458177399
+    second: controller_switch_34
+  - first:
+      213: -9026809208651009357
+    second: controller_switch_35
+  - first:
+      213: 5149218583716663591
+    second: controller_switch_36
+  - first:
+      213: 9207008708834432282
+    second: controller_switch_37
+  - first:
+      213: -8613510711215039100
+    second: controller_switch_38
+  - first:
+      213: -7004717594923020765
+    second: controller_switch_39
+  - first:
+      213: -8204603963287230620
+    second: controller_switch_40
+  - first:
+      213: -6533719219101174002
+    second: controller_switch_41
+  - first:
+      213: -1520260827090713234
+    second: controller_switch_42
+  - first:
+      213: 2688349001652578341
+    second: controller_switch_43
+  - first:
+      213: 2126662422134183379
+    second: controller_switch_44
+  - first:
+      213: 3556414414297270500
+    second: controller_switch_45
+  - first:
+      213: 6090291104367873087
+    second: controller_switch_46
+  - first:
+      213: -705584596664780880
+    second: controller_switch_47
+  - first:
+      213: -5245784746643424589
+    second: controller_switch_48
+  - first:
+      213: -7069448880028528875
+    second: controller_switch_49
+  - first:
+      213: 5008722147632791757
+    second: controller_switch_50
+  - first:
+      213: -6349685855831252389
+    second: controller_switch_51
+  - first:
+      213: -2673729697952178187
+    second: controller_switch_52
+  - first:
+      213: 6293681976702462419
+    second: controller_switch_53
+  - first:
+      213: -7625966640709963250
+    second: controller_switch_54
+  - first:
+      213: -517200863351270208
+    second: controller_switch_55
+  - first:
+      213: -1807070880808539931
+    second: controller_switch_56
+  - first:
+      213: 6276250644943823259
+    second: controller_switch_57
+  - first:
+      213: 8734675132719476782
+    second: controller_switch_58
+  - first:
+      213: 2809532607878201758
+    second: controller_switch_59
+  - first:
+      213: -4553780546837418280
+    second: controller_switch_60
+  - first:
+      213: -2866991652375085834
+    second: controller_switch_61
+  - first:
+      213: -2045672214988186359
+    second: controller_switch_62
+  - first:
+      213: -1455560737282230420
+    second: controller_switch_63
+  - first:
+      213: 8383026756417910631
+    second: controller_switch_64
+  - first:
+      213: -8019069421963068408
+    second: controller_switch_65
+  - first:
+      213: -5414089004293181560
+    second: controller_switch_66
+  - first:
+      213: 5877644606086569184
+    second: controller_switch_67
+  - first:
+      213: 8858430738991193237
+    second: controller_switch_68
+  - first:
+      213: -7783284959704705623
+    second: controller_switch_69
+  - first:
+      213: -3371538794367264773
+    second: controller_switch_70
+  - first:
+      213: 2188397351026294270
+    second: controller_switch_71
+  - first:
+      213: -8426167898145483455
+    second: controller_switch_72
+  - first:
+      213: 6050512637772631377
+    second: controller_switch_73
+  - first:
+      213: -6775194051732770866
+    second: controller_switch_74
+  - first:
+      213: 7991763988832168547
+    second: controller_switch_75
+  - first:
+      213: 5336353387646239187
+    second: controller_switch_76
+  - first:
+      213: -6606327583292349197
+    second: controller_switch_77
+  - first:
+      213: 7114500844764329428
+    second: controller_switch_78
+  - first:
+      213: 2549501624470035075
+    second: controller_switch_79
+  - first:
+      213: 5820666629822403623
+    second: controller_switch_80
+  - first:
+      213: 7337993695589629136
+    second: controller_switch_81
+  - first:
+      213: -495331556242710520
+    second: controller_switch_82
+  - first:
+      213: -7098619914894732203
+    second: controller_switch_83
+  - first:
+      213: 5019173674367880873
+    second: controller_switch_84
+  - first:
+      213: 3896628795348035994
+    second: controller_switch_85
+  - first:
+      213: 2513492119392874737
+    second: controller_switch_86
+  - first:
+      213: -1915806652387553497
+    second: controller_switch_87
+  - first:
+      213: 6732759106098080601
+    second: controller_switch_88
+  - first:
+      213: 6232753952522992152
+    second: controller_switch_89
+  - first:
+      213: -2350939414073857016
+    second: controller_switch_90
+  - first:
+      213: -7489102883182872719
+    second: controller_switch_91
+  - first:
+      213: -706076899581590972
+    second: controller_switch_92
+  - first:
+      213: 100700491238155973
+    second: controller_switch_93
+  - first:
+      213: -3759209854493277136
+    second: controller_switch_94
+  - first:
+      213: 2935572329950491134
+    second: controller_switch_95
+  - first:
+      213: -4957557862477793271
+    second: controller_switch_96
+  - first:
+      213: 6626524481251694201
+    second: controller_switch_97
+  - first:
+      213: 8647142824880200182
+    second: controller_switch_98
+  - first:
+      213: 2839398337372715113
+    second: controller_switch_99
+  - first:
+      213: 8590093798326551435
+    second: controller_switch_100
+  - first:
+      213: -1359286286113074990
+    second: controller_switch_101
+  - first:
+      213: -4760056777236061147
+    second: controller_switch_102
+  - first:
+      213: -9078258980352556382
+    second: controller_switch_103
+  - first:
+      213: -6841253675054385159
+    second: controller_switch_104
+  - first:
+      213: -5583454311034007640
+    second: controller_switch_105
+  - first:
+      213: -6905713776816467641
+    second: controller_switch_106
+  - first:
+      213: 7720224667655085725
+    second: controller_switch_107
+  - first:
+      213: 9096724179595839318
+    second: controller_switch_108
+  - first:
+      213: 5829365036488859809
+    second: controller_switch_109
+  - first:
+      213: -1885644798425699133
+    second: controller_switch_110
+  - first:
+      213: 184913688211958378
+    second: controller_switch_111
+  - first:
+      213: 4496063999363879335
+    second: controller_switch_112
+  - first:
+      213: -3895421730299438965
+    second: controller_switch_113
+  - first:
+      213: 3078278034862854681
+    second: controller_switch_114
+  - first:
+      213: 1181854217677432413
+    second: controller_switch_115
+  - first:
+      213: -310994724213677375
+    second: controller_switch_116
+  - first:
+      213: 6837451075335053050
+    second: controller_switch_117
+  - first:
+      213: -5579028303775720777
+    second: controller_switch_118
+  - first:
+      213: 3659527991964651444
+    second: controller_switch_119
+  - first:
+      213: -4857993266895092086
+    second: controller_switch_120
+  - first:
+      213: 160442094988326373
+    second: controller_switch_121
+  - first:
+      213: -7475930848586286305
+    second: controller_switch_122
+  - first:
+      213: -707332697951881783
+    second: controller_switch_123
+  - first:
+      213: -1192363011127176499
+    second: controller_switch_124
+  - first:
+      213: -4861988370102115993
+    second: controller_switch_125
+  - first:
+      213: -4874177391269861520
+    second: controller_switch_126
+  - first:
+      213: 5789275777589013822
+    second: controller_switch_127
+  - first:
+      213: -4716761610212282741
+    second: controller_switch_128
+  - first:
+      213: -654590056817269733
+    second: controller_switch_129
+  - first:
+      213: 7948574125999875014
+    second: controller_switch_130
+  - first:
+      213: 4294281996315257183
+    second: controller_switch_131
+  - first:
+      213: -5256043974226939611
+    second: controller_switch_132
+  - first:
+      213: -616600473900071348
+    second: controller_switch_133
+  - first:
+      213: 7237748011584230105
+    second: controller_switch_134
+  - first:
+      213: 4065034874311008200
+    second: controller_switch_135
+  - first:
+      213: -5550854439623339859
+    second: controller_switch_136
+  - first:
+      213: 3412047391857876835
+    second: controller_switch_137
+  - first:
+      213: 295137464519884719
+    second: controller_switch_138
+  - first:
+      213: -4477032389429654759
+    second: controller_switch_139
+  - first:
+      213: -4326584471388943639
+    second: controller_switch_140
+  - first:
+      213: 7376220219378925927
+    second: controller_switch_141
+  - first:
+      213: -3022843921118184953
+    second: controller_switch_142
+  - first:
+      213: -7074263688694614176
+    second: controller_switch_143
+  - first:
+      213: 6908397013597717527
+    second: controller_switch_144
+  - first:
+      213: 2669919068424455520
+    second: controller_switch_145
+  - first:
+      213: -3685722966244667888
+    second: controller_switch_146
+  - first:
+      213: 8578424681857967730
+    second: controller_switch_147
+  - first:
+      213: -3327184448002467971
+    second: controller_switch_148
+  - first:
+      213: 7243598132111743707
+    second: controller_switch_149
+  - first:
+      213: -8536184613670353782
+    second: controller_switch_150
+  - first:
+      213: 2446375536970972563
+    second: controller_switch_151
+  - first:
+      213: -6743232692523427032
+    second: controller_switch_152
+  - first:
+      213: -960251268662585979
+    second: controller_switch_153
+  - first:
+      213: -5291569098856406
+    second: controller_switch_154
+  - first:
+      213: 534108717443174670
+    second: controller_switch_155
+  - first:
+      213: -2878231971538379756
+    second: controller_switch_156
+  - first:
+      213: -1691888197737418977
+    second: controller_switch_157
+  - first:
+      213: -5022436921265635123
+    second: controller_switch_158
+  - first:
+      213: -3794183734674877667
+    second: controller_switch_159
+  - first:
+      213: -1311385002295493277
+    second: controller_switch_160
+  - first:
+      213: 4880461008074292126
+    second: controller_switch_161
+  - first:
+      213: 3631879009958624066
+    second: controller_switch_162
+  - first:
+      213: 2966248936527952589
+    second: controller_switch_163
+  - first:
+      213: -1260918268826146091
+    second: controller_switch_164
+  - first:
+      213: 4354475398565284131
+    second: controller_switch_165
+  - first:
+      213: -5050355528708241219
+    second: controller_switch_166
+  - first:
+      213: -4090637905860126038
+    second: controller_switch_167
+  - first:
+      213: -1379136354778716555
+    second: controller_switch_168
+  - first:
+      213: 7472202326116066330
+    second: controller_switch_169
+  - first:
+      213: 3846359049092595424
+    second: controller_switch_170
+  - first:
+      213: -3964123690803742666
+    second: controller_switch_171
+  - first:
+      213: 5022455352046955245
+    second: controller_switch_172
+  - first:
+      213: -187362774820822821
+    second: controller_switch_173
+  - first:
+      213: 5101383844682801899
+    second: controller_switch_174
+  - first:
+      213: -115708341641057227
+    second: controller_switch_175
+  - first:
+      213: 6922538402126653553
+    second: controller_switch_176
+  - first:
+      213: -7148699838071182110
+    second: controller_switch_177
+  - first:
+      213: -7515897899250735619
+    second: controller_switch_178
+  - first:
+      213: 4091903199180892387
+    second: controller_switch_179
+  - first:
+      213: -5888477480273415880
+    second: controller_switch_180
+  - first:
+      213: 4781437179636630299
+    second: controller_switch_181
+  - first:
+      213: -2884909897359157033
+    second: controller_switch_182
+  - first:
+      213: 820200434798181072
+    second: controller_switch_183
+  - first:
+      213: 7397929444168847130
+    second: controller_switch_184
+  - first:
+      213: -404210065624421201
+    second: controller_switch_185
+  - first:
+      213: 1345357149189055484
+    second: controller_switch_186
+  - first:
+      213: -7804298874015492424
+    second: controller_switch_187
+  - first:
+      213: -8106403232391137284
+    second: controller_switch_188
+  - first:
+      213: -1081827282400129166
+    second: controller_switch_189
+  - first:
+      213: -690191193438395263
+    second: controller_switch_190
+  - first:
+      213: 7911561317439573536
+    second: controller_switch_191
+  - first:
+      213: -5431810828824115491
+    second: controller_switch_192
+  - first:
+      213: 3302956839510420789
+    second: controller_switch_193
+  - first:
+      213: 4304989166639691963
+    second: controller_switch_194
+  - first:
+      213: 8111074858765132626
+    second: controller_switch_195
+  - first:
+      213: -2927745293569867430
+    second: controller_switch_196
+  - first:
+      213: -4300266226958019173
+    second: controller_switch_197
+  - first:
+      213: 7087586579856712678
+    second: controller_switch_198
+  - first:
+      213: -5807143257856871587
+    second: controller_switch_199
+  - first:
+      213: -232119948822952404
+    second: controller_switch_200
+  - first:
+      213: -3470560222918505
+    second: controller_switch_201
+  - first:
+      213: 4908297292366450536
+    second: controller_switch_202
+  - first:
+      213: 7211268732662502507
+    second: controller_switch_203
+  - first:
+      213: 7081943450795386213
+    second: controller_switch_204
+  - first:
+      213: -8697329842529959568
+    second: controller_switch_205
+  - first:
+      213: 1852999085003929594
+    second: controller_switch_206
+  - first:
+      213: -8303729027466115200
+    second: controller_switch_207
+  - first:
+      213: 1022672973113951721
+    second: controller_switch_208
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: controller_switch_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 579
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4985057691a344130800000000000000
+      internalID: 3550026287056705684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 579
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dece20547ba8640e0800000000000000
+      internalID: -2285987241102480147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_2
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 579
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2807c8df0b0e890800000000000000
+      internalID: -7430744782131920199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_3
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 578
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ece4befd3931e80800000000000000
+      internalID: -8209055105831481733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_4
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 578
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198b50f74f804fe80800000000000000
+      internalID: -8145875979810260847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_5
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 578
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260b6626a38f5bf00800000000000000
+      internalID: 1132083810996236386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_6
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 579
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a487f163042afd0800000000000000
+      internalID: -2332231055824106883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_7
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 563
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08963ef57fae83730800000000000000
+      internalID: 3979188618968394112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_8
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 563
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c95fc2b4ce947fd0800000000000000
+      internalID: -2345074938302473785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_9
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 563
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96aab2b647fbe7470800000000000000
+      internalID: 8394357262200318569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_10
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 562
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434e472eaffa857c0800000000000000
+      internalID: -4082319570135358412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_11
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 562
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f430cb082b48a6ae0800000000000000
+      internalID: -1555284819104234673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_12
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 562
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e68372d25abb530800000000000000
+      internalID: 3871869918005194328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_13
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 563
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8723f7e9dddd9a1f0800000000000000
+      internalID: -1033050695588171144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 547
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b6d62590b897220800000000000000
+      internalID: 2484169541625408319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_15
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 547
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4724f574353575940800000000000000
+      internalID: 5284784304887382644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_16
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 547
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1ed4dc3d4e84b40800000000000000
+      internalID: 5424837349501428131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_17
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 546
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abba3c6837b05dcf0800000000000000
+      internalID: -228263615302227014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_18
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 546
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83604ee45919e800800000000000000
+      internalID: 642072274442150794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_19
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 546
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb80b37d3e2f02d50800000000000000
+      internalID: 6710630505164507323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_20
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 547
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bdfe0750c4b5e70800000000000000
+      internalID: 9104954657912904484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_21
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 531
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29240a4e815469130800000000000000
+      internalID: 3573119327582306962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_22
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 531
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34330d0593e765ce0800000000000000
+      internalID: -1416806248127384765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_23
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 531
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0509de1b675e2c0800000000000000
+      internalID: -4402982554117844747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_24
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 530
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc56c8ef0fdd8f480800000000000000
+      internalID: -8865091839346317875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_25
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 530
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442fad13ec7674790800000000000000
+      internalID: -7545948515338620348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_26
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 530
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2289d06efe434b0800000000000000
+      internalID: -5461476676743978266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_27
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 531
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843f08848143a5020800000000000000
+      internalID: 2331233036017922888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_28
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 515
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4188da5c9b3cdd0800000000000000
+      internalID: -2466923912197827338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_29
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 515
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d40b1874292b510800000000000000
+      internalID: 1563472856467131741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_30
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 515
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb506f4d80bbaa40800000000000000
+      internalID: 5380588300792781818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_31
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 514
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e895094c3721f00800000000000000
+      internalID: 1086057748222283295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_32
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 514
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d081cef80d9d620800000000000000
+      internalID: 2799497959947373889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_33
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 514
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02484626c4866fdf0800000000000000
+      internalID: -146815260565404640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_34
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 515
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d47a786049da310800000000000000
+      internalID: 1417952213458177399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_35
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 499
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2b12fc9d45ab280800000000000000
+      internalID: -9026809208651009357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_36
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 499
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72195492503b57740800000000000000
+      internalID: 5149218583716663591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_37
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 499
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15110ec3add5cf70800000000000000
+      internalID: 9207008708834432282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_38
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 498
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d510df4a9a67880800000000000000
+      internalID: -8613510711215039100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_39
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 498
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e4fa2c57e3ace90800000000000000
+      internalID: -7004717594923020765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_40
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 498
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467a08d4a24632e80800000000000000
+      internalID: -8204603963287230620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_41
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 499
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07f453ccf09355a0800000000000000
+      internalID: -6533719219101174002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_42
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 483
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65015b15d2f6eae0800000000000000
+      internalID: -1520260827090713234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_43
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 483
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52827cb6c2fee4520800000000000000
+      internalID: 2688349001652578341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_44
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 483
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5da74943c638d10800000000000000
+      internalID: 2126662422134183379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_45
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 482
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8844e211cea5130800000000000000
+      internalID: 3556414414297270500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_46
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 482
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c819edd7f058450800000000000000
+      internalID: 6090291104367873087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_47
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 482
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7fec43c824536f0800000000000000
+      internalID: -705584596664780880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_48
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 483
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3baf728f09a3337b0800000000000000
+      internalID: -5245784746643424589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_49
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 467
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51fcd1cf2b544ed90800000000000000
+      internalID: -7069448880028528875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_50
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 467
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0c844814e828540800000000000000
+      internalID: 5008722147632791757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_51
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 467
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b522bdf2b5261e7a0800000000000000
+      internalID: -6349685855831252389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_52
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 466
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ffd528710105ead0800000000000000
+      internalID: -2673729697952178187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_53
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 466
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9e0a69966a75750800000000000000
+      internalID: 6293681976702462419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_54
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 466
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02f08f8ebf1b2690800000000000000
+      internalID: -7625966640709963250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_55
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 467
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c41c661e8882d8f0800000000000000
+      internalID: -517200863351270208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 449
+        width: 96
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e86471bb9efbe6e0800000000000000
+      internalID: -1807070880808539931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 433
+        width: 80
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91613565b8b91750800000000000000
+      internalID: 6276250644943823259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 417
+        width: 80
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20be2241ccc73970800000000000000
+      internalID: 8734675132719476782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_59
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 403
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91057575077df620800000000000000
+      internalID: 2809532607878201758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_60
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 403
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8deeba838b8bdc0c0800000000000000
+      internalID: -4553780546837418280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_61
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 403
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc3c2a38466638d0800000000000000
+      internalID: -2866991652375085834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_62
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 402
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d1eba75ff4c93e0800000000000000
+      internalID: -2045672214988186359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_63
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 402
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c677949a83fcccbe0800000000000000
+      internalID: -1455560737282230420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_64
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 402
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76772e67b6e765470800000000000000
+      internalID: 8383026756417910631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_65
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 403
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80cb1baf8da86b090800000000000000
+      internalID: -8019069421963068408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_66
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 387
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fa1c45cba4dd4b0800000000000000
+      internalID: -5414089004293181560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_67
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 387
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ecd7cdc0a6919150800000000000000
+      internalID: 5877644606086569184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_68
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 387
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c98f8b2d77fea70800000000000000
+      internalID: 8858430738991193237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_69
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 386
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5192711973cf390800000000000000
+      internalID: -7783284959704705623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_70
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 386
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf75a476453e531d0800000000000000
+      internalID: -3371538794367264773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_71
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 386
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efdf35fcbcfbe5e10800000000000000
+      internalID: 2188397351026294270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_72
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 387
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1451d3db0fc301b80800000000000000
+      internalID: -8426167898145483455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_73
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 371
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d0373ef2db7f350800000000000000
+      internalID: 6050512637772631377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_74
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 371
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecfe02e08eca9f1a0800000000000000
+      internalID: -6775194051732770866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_75
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 371
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36aa913710378ee60800000000000000
+      internalID: 7991763988832168547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_76
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 370
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d14b9202298e0a40800000000000000
+      internalID: 5336353387646239187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_77
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 370
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4aef7901c9154a0800000000000000
+      internalID: -6606327583292349197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_78
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 370
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5f466f2d8cbb260800000000000000
+      internalID: 7114500844764329428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_79
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 371
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a51d83836a16320800000000000000
+      internalID: 2549501624470035075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_80
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 355
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724d88ae57927c050800000000000000
+      internalID: 5820666629822403623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_81
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 355
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcfca5436ac5d560800000000000000
+      internalID: 7337993695589629136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_82
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 355
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800ac10f29a3029f0800000000000000
+      internalID: -495331556242710520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_83
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 354
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5549f292cc2ac7d90800000000000000
+      internalID: -7098619914894732203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_84
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 354
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae80b63ddfa7a540800000000000000
+      internalID: 5019173674367880873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_85
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 354
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9927408e3b931630800000000000000
+      internalID: 3896628795348035994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_86
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 355
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0f72af3c7b1e220800000000000000
+      internalID: 2513492119392874737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_87
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 339
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f0c120000b965e0800000000000000
+      internalID: -1915806652387553497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_88
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 339
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ba04d3cb09f6d50800000000000000
+      internalID: 6732759106098080601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_89
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 339
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a7b8082b03f7650800000000000000
+      internalID: 6232753952522992152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_90
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 338
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ca9a70f09cf5fd0800000000000000
+      internalID: -2350939414073857016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_91
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 338
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177f7815b9c511890800000000000000
+      internalID: -7489102883182872719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_92
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 338
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44284500dc28336f0800000000000000
+      internalID: -706076899581590972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_93
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 339
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c625f03092c56100800000000000000
+      internalID: 100700491238155973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_94
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 323
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034c7c2fd8a94dbc0800000000000000
+      internalID: -3759209854493277136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_95
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 323
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef13a231b7f3db820800000000000000
+      internalID: 2935572329950491134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_96
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 323
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908f09de367333bb0800000000000000
+      internalID: -4957557862477793271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_97
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 322
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976df6828e426fb50800000000000000
+      internalID: 6626524481251694201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_98
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 322
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f95d0fa592d00870800000000000000
+      internalID: 8647142824880200182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_99
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 322
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9687fea7eb1976720800000000000000
+      internalID: 2839398337372715113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_100
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 323
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b834a8c1cc4263770800000000000000
+      internalID: 8590093798326551435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_101
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 307
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d09b281358d22de0800000000000000
+      internalID: -1359286286113074990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_102
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 307
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524672ab491e0fdb0800000000000000
+      internalID: -4760056777236061147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_103
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 307
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a206195e8b830280800000000000000
+      internalID: -9078258980352556382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_104
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 306
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f73c00770cfe01a0800000000000000
+      internalID: -6841253675054385159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_105
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 306
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afc133f2e59382b0800000000000000
+      internalID: -5583454311034007640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_106
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 306
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741555478e9f920a0800000000000000
+      internalID: -6905713776816467641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_107
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 307
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e1ac58e6fb32b60800000000000000
+      internalID: 7720224667655085725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_108
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 291
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6574480e17e0e3e70800000000000000
+      internalID: 9096724179595839318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_109
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 291
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0200a8d9016e050800000000000000
+      internalID: 5829365036488859809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_110
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 291
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cce541eb08d4d5e0800000000000000
+      internalID: -1885644798425699133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_111
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 290
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a2bfb0502f09200800000000000000
+      internalID: 184913688211958378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_112
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 290
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a19181e26a356e30800000000000000
+      internalID: 4496063999363879335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_113
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 290
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b881a2b339ea0f9c0800000000000000
+      internalID: -3895421730299438965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_114
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 291
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91253e3309d38ba20800000000000000
+      internalID: 3078278034862854681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_115
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 274
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56e5f4362ac66010800000000000000
+      internalID: 1181854217677432413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_116
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 275
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2293032ff1fabf0800000000000000
+      internalID: -310994724213677375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_117
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 275
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe5572d68183ee50800000000000000
+      internalID: 6837451075335053050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_118
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 273
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba1991115f4392b0800000000000000
+      internalID: -5579028303775720777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_119
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 274
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bfc6a6d15149c230800000000000000
+      internalID: 3659527991964651444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_120
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 274
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a868a7dccd0f49cb0800000000000000
+      internalID: -4857993266895092086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_121
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 275
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e57cce3c310a3200800000000000000
+      internalID: 160442094988326373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_122
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 258
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b31ac9088204890800000000000000
+      internalID: -7475930848586286305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_123
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 259
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c53f88a8ac0f26f0800000000000000
+      internalID: -707332697951881783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_124
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 259
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc21376a820e37fe0800000000000000
+      internalID: -1192363011127176499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_125
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 257
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761abf9565fb68cb0800000000000000
+      internalID: -4861988370102115993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_126
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 258
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077ae15bc717b5cb0800000000000000
+      internalID: -4874177391269861520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_127
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 258
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d67f595a3a75050800000000000000
+      internalID: 5789275777589013822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_128
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 259
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ee8155e42ba8eb0800000000000000
+      internalID: -4716761610212282741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_129
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 245
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1467edbfcd6ae6f0800000000000000
+      internalID: -654590056817269733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_130
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 246
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c36513ed020f4e60800000000000000
+      internalID: 7948574125999875014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_131
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 246
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59e9bb39ba589b30800000000000000
+      internalID: 4294281996315257183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_132
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 244
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521fe586ad7ce07b0800000000000000
+      internalID: -5256043974226939611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_133
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 245
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4649d8c2256177f0800000000000000
+      internalID: -616600473900071348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_134
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 245
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d294442875a17460800000000000000
+      internalID: 7237748011584230105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_135
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 246
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfd1e24ea7e96830800000000000000
+      internalID: 4065034874311008200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_136
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 229
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0d95efb4767f2b0800000000000000
+      internalID: -5550854439623339859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_137
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 230
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f9c7c66070a5f20800000000000000
+      internalID: 3412047391857876835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_138
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 230
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faffd94d5f9881400800000000000000
+      internalID: 295137464519884719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_139
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 228
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b802c13c26ed1c0800000000000000
+      internalID: -4477032389429654759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_140
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 229
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea0424b852e4f3c0800000000000000
+      internalID: -4326584471388943639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_141
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 229
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761822965399d5660800000000000000
+      internalID: 7376220219378925927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_142
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 230
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a3d4e2873bc06d0800000000000000
+      internalID: -3022843921118184953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_143
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 211
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067b9ebf7aa23dd90800000000000000
+      internalID: -7074263688694614176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_144
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 211
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7148cda4b7e8fdf50800000000000000
+      internalID: 6908397013597717527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_145
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 210
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0654b743f357d0520800000000000000
+      internalID: 2669919068424455520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_146
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 210
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ecc707d7ea9dcc0800000000000000
+      internalID: -3685722966244667888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_147
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 211
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27666963ccfac0770800000000000000
+      internalID: 8578424681857967730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_148
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 195
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77db9a6f5773d1d0800000000000000
+      internalID: -3327184448002467971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_149
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 195
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda14387f1e668460800000000000000
+      internalID: 7243598132111743707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_150
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 194
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84060d0251698980800000000000000
+      internalID: -8536184613670353782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_151
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 194
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d3c54e69543f120800000000000000
+      internalID: 2446375536970972563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_152
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 195
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b1754e7993b62a0800000000000000
+      internalID: -6743232692523427032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_153
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 180
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5859f3c0f808ca2f0800000000000000
+      internalID: -960251268662585979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_154
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 180
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28ee8f88533deff0800000000000000
+      internalID: -5291569098856406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_155
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 180
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01d3a67c09896700800000000000000
+      internalID: 534108717443174670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_156
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 179
+        width: 48
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c584b75477e08d0800000000000000
+      internalID: -2878231971538379756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_157
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 164
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f6f2ee5a43588e0800000000000000
+      internalID: -1691888197737418977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_158
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 164
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0c729ea38bc4ab0800000000000000
+      internalID: -5022436921265635123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_159
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 164
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13932aeef9585bc0800000000000000
+      internalID: -3794183734674877667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_160
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 163
+        width: 48
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36df666d9460dcde0800000000000000
+      internalID: -1311385002295493277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_161
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 164
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9bb966dd61eab340800000000000000
+      internalID: 4880461008074292126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_162
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 148
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bf7cf87b6076230800000000000000
+      internalID: 3631879009958624066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_163
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 148
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcaf02121bb3a2920800000000000000
+      internalID: 2966248936527952589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_164
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 148
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da21dfd381508ee0800000000000000
+      internalID: -1260918268826146091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_165
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 147
+        width: 48
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32949a2dd443e6c30800000000000000
+      internalID: 4354475398565284131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_166
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 148
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db84ae1976889e9b0800000000000000
+      internalID: -5050355528708241219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_167
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 132
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa957c6f722b37c0800000000000000
+      internalID: -4090637905860126038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_168
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 132
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5766694dac25cdce0800000000000000
+      internalID: -1379136354778716555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_169
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 132
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14eef91d6892b760800000000000000
+      internalID: 7472202326116066330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_170
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 131
+        width: 48
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eef5cf1d23016530800000000000000
+      internalID: 3846359049092595424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_171
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 116
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638beeb818a9cf8c0800000000000000
+      internalID: -3964123690803742666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_172
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 116
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deaa407588853b540800000000000000
+      internalID: 5022455352046955245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_173
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 116
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd06caa8c8a566df0800000000000000
+      internalID: -187362774820822821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_174
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 115
+        width: 48
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be22c351491cbc640800000000000000
+      internalID: 5101383844682801899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_175
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 116
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c6fe650ebe46ef0800000000000000
+      internalID: -115708341641057227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_176
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 101
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17862c2effbc11060800000000000000
+      internalID: 6922538402126653553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_177
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 101
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecefd96f57bacc90800000000000000
+      internalID: -7148699838071182110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_178
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 101
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df52e0b7eaa22b790800000000000000
+      internalID: -7515897899250735619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_179
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 100
+        width: 48
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e82672a74c59c830800000000000000
+      internalID: 4091903199180892387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_180
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 101
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8317a602eece74ea0800000000000000
+      internalID: -5888477480273415880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_181
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 84
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13461028c31b5240800000000000000
+      internalID: 4781437179636630299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_182
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 84
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d816e6bbbdb6f7d0800000000000000
+      internalID: -2884909897359157033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_183
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 84
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da34c823ffe16b00800000000000000
+      internalID: 820200434798181072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_184
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 83
+        width: 48
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f461132a9baa660800000000000000
+      internalID: 7397929444168847130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_185
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 68
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faca1df3615f36af0800000000000000
+      internalID: -404210065624421201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_186
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 68
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3227df23baba210800000000000000
+      internalID: 1345357149189055484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_187
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 68
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b65355e58f81b390800000000000000
+      internalID: -7804298874015492424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_188
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 67
+        width: 48
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf77f3fa535408f80800000000000000
+      internalID: -8106403232391137284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_189
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 68
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27fc63481d39cf0f0800000000000000
+      internalID: -1081827282400129166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_190
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 52
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184600034c2fb66f0800000000000000
+      internalID: -690191193438395263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_191
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 52
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e05b8d9138bcd60800000000000000
+      internalID: 7911561317439573536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_192
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 52
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd681d484d45e94b0800000000000000
+      internalID: -5431810828824115491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_193
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 51
+        width: 48
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d2777eeb576dd20800000000000000
+      internalID: 3302956839510420789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_194
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 52
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8b67796d46ebb30800000000000000
+      internalID: 4304989166639691963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_195
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 36
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2532c471c93509070800000000000000
+      internalID: 8111074858765132626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_196
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 36
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5142f7da2f8e57d0800000000000000
+      internalID: -2927745293569867430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_197
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 36
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95de8e76a26254c0800000000000000
+      internalID: -4300266226958019173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_198
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 35
+        width: 48
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e36f27517a2c5260800000000000000
+      internalID: 7087586579856712678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_199
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 20
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53f2ab79f1e86fa0800000000000000
+      internalID: -5807143257856871587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_200
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 20
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c264029e22857ccf0800000000000000
+      internalID: -232119948822952404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_201
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 20
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798cdba3b8ba3fff0800000000000000
+      internalID: -3470560222918505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_202
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 19
+        width: 48
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f8383d166cd1440800000000000000
+      internalID: 4908297292366450536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_203
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 20
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64da3694b2931460800000000000000
+      internalID: 7211268732662502507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_204
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 5
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5652018fb0e184260800000000000000
+      internalID: 7081943450795386213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_205
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 5
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0710991b690ec4780800000000000000
+      internalID: -8697329842529959568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_206
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 5
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af778c6a9dc27b910800000000000000
+      internalID: 1852999085003929594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_207
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 4
+        width: 48
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08748cec17a33cc80800000000000000
+      internalID: -8303729027466115200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controller_switch_208
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 5
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e589d396a3413e00800000000000000
+      internalID: 1022672973113951721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

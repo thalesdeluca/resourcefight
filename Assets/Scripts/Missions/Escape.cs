@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class Escape : MissionComponent {
 
+  private float maxTime = 30f;
+
   void Start() {
     type = MissionType.Escape;
+    Time.timeScale = 0;
+    countdownText = GameObject.Find("Countdown");
   }
 
 
@@ -14,6 +18,7 @@ public class Escape : MissionComponent {
   }
 
   public override void OnSucceed() {
-
+    var inTime = time <= maxTime;
+    this.GetComponent<MissionController>().FinishMission(inTime, time);
   }
 }

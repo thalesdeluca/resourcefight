@@ -1,0 +1,1772 @@
+fileFormatVersion: 2
+guid: f0f4b9e9374a09344a25e673f181c5fb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6650738528677379693
+    second: sticks_0
+  - first:
+      213: -3301283709267967565
+    second: sticks_1
+  - first:
+      213: -4554965263754444571
+    second: sticks_2
+  - first:
+      213: 759511132192062455
+    second: sticks_3
+  - first:
+      213: 922070923588165547
+    second: sticks_4
+  - first:
+      213: 8233635833900696273
+    second: sticks_5
+  - first:
+      213: -25681114502079029
+    second: sticks_6
+  - first:
+      213: 3767348334575506315
+    second: sticks_7
+  - first:
+      213: -1882316556215962754
+    second: sticks_8
+  - first:
+      213: 6904486264885979234
+    second: sticks_9
+  - first:
+      213: 7504350792824298828
+    second: sticks_10
+  - first:
+      213: 6683374553810621565
+    second: sticks_11
+  - first:
+      213: 7663640932921033023
+    second: sticks_12
+  - first:
+      213: -3712756840183091383
+    second: sticks_13
+  - first:
+      213: -591963710630879321
+    second: sticks_14
+  - first:
+      213: -2093936530331541033
+    second: sticks_15
+  - first:
+      213: -7873147021059451137
+    second: sticks_16
+  - first:
+      213: 6862585260959830507
+    second: sticks_17
+  - first:
+      213: 733932313501997061
+    second: sticks_18
+  - first:
+      213: -3516281433549496296
+    second: sticks_19
+  - first:
+      213: 18910218416757104
+    second: sticks_20
+  - first:
+      213: -7358158550409643634
+    second: sticks_21
+  - first:
+      213: 6610079965796217744
+    second: sticks_22
+  - first:
+      213: 4051915980125183242
+    second: sticks_23
+  - first:
+      213: 4231032212223810899
+    second: sticks_24
+  - first:
+      213: -3900187718882495816
+    second: sticks_25
+  - first:
+      213: 1269422179172743461
+    second: sticks_26
+  - first:
+      213: -2136754346222123703
+    second: sticks_27
+  - first:
+      213: 6063578487124548501
+    second: sticks_28
+  - first:
+      213: 5215025721644844577
+    second: sticks_29
+  - first:
+      213: -8147712035862998924
+    second: sticks_30
+  - first:
+      213: 3751190513651048107
+    second: sticks_31
+  - first:
+      213: 3384907097787315671
+    second: sticks_32
+  - first:
+      213: 5651067386324710934
+    second: sticks_33
+  - first:
+      213: 2741367213410605449
+    second: sticks_34
+  - first:
+      213: 1579567757357270677
+    second: sticks_35
+  - first:
+      213: -4441122493553584878
+    second: sticks_36
+  - first:
+      213: 1186011554445731686
+    second: sticks_37
+  - first:
+      213: -5958711543712786177
+    second: sticks_38
+  - first:
+      213: 6171351758406265463
+    second: sticks_39
+  - first:
+      213: 5806799835356597194
+    second: sticks_40
+  - first:
+      213: 3789284758342465319
+    second: sticks_41
+  - first:
+      213: -5921052742911719464
+    second: sticks_42
+  - first:
+      213: 9017920520576934180
+    second: sticks_43
+  - first:
+      213: 3804745601300971391
+    second: sticks_44
+  - first:
+      213: 2187065283415672694
+    second: sticks_45
+  - first:
+      213: -298598516077211468
+    second: sticks_46
+  - first:
+      213: -6883980156155305246
+    second: sticks_47
+  - first:
+      213: 3355945241767090887
+    second: sticks_48
+  - first:
+      213: 8882603249980330064
+    second: sticks_49
+  - first:
+      213: 3565382330270806207
+    second: sticks_50
+  - first:
+      213: 78800082268331489
+    second: sticks_51
+  - first:
+      213: -6853628229555639003
+    second: sticks_52
+  - first:
+      213: -2757492393663398158
+    second: sticks_53
+  - first:
+      213: 1509664447428328750
+    second: sticks_54
+  - first:
+      213: -2838395359410401164
+    second: sticks_55
+  - first:
+      213: 2693708649983283906
+    second: sticks_56
+  - first:
+      213: -6032886148205660737
+    second: sticks_57
+  - first:
+      213: -5852309156584232592
+    second: sticks_58
+  - first:
+      213: -2304152223013494382
+    second: sticks_59
+  - first:
+      213: -1672078976221796587
+    second: sticks_60
+  - first:
+      213: 5135610758397180705
+    second: sticks_61
+  - first:
+      213: 6642145165292974568
+    second: sticks_62
+  - first:
+      213: 4379120142140545521
+    second: sticks_63
+  - first:
+      213: 4965967981492875935
+    second: sticks_64
+  - first:
+      213: -7154674519537998753
+    second: sticks_65
+  - first:
+      213: -4766447423065921882
+    second: sticks_66
+  - first:
+      213: 3354013509428029242
+    second: sticks_67
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sticks_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 178
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6eb1d7647b2c4c50800000000000000
+      internalID: 6650738528677379693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 178
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b18c4615fb7f22d0800000000000000
+      internalID: -3301283709267967565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_2
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 178
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e04ca1d93389c0c0800000000000000
+      internalID: -4554965263754444571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_3
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 178
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb3345c9535a8a00800000000000000
+      internalID: 759511132192062455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_4
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 178
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf5032ae9adbcc00800000000000000
+      internalID: 922070923588165547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_5
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 178
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d20491da20c34270800000000000000
+      internalID: 8233635833900696273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 160
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcddaa49923c4aff0800000000000000
+      internalID: -25681114502079029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 161
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83588b995f484430800000000000000
+      internalID: 3767348334575506315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_8
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 160
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7339e7a01ba0e5e0800000000000000
+      internalID: -1882316556215962754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_9
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 162
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268a7172da9a1df50800000000000000
+      internalID: 6904486264885979234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_10
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 160
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d963c494fc42860800000000000000
+      internalID: 7504350792824298828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_11
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 162
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7454c42fbd10cc50800000000000000
+      internalID: 6683374553810621565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 146
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31c6e423d8ba5a60800000000000000
+      internalID: 7663640932921033023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_13
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 146
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f2c7b2353a97cc0800000000000000
+      internalID: -3712756840183091383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_14
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 146
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af9ceb342ce8c7f0800000000000000
+      internalID: -591963710630879321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_15
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 146
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1ef5fd1d7d0f2e0800000000000000
+      internalID: -2093936530331541033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_16
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 146
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff693518f76fcb290800000000000000
+      internalID: -7873147021059451137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_17
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 146
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be197507feccc3f50800000000000000
+      internalID: 6862585260959830507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_18
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 130
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5089773fc837f2a00800000000000000
+      internalID: 733932313501997061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_19
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 130
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8102bfe8aa8a33fc0800000000000000
+      internalID: -3516281433549496296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_20
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 130
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0791b535ebe234000800000000000000
+      internalID: 18910218416757104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_21
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 130
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8974d998c192e990800000000000000
+      internalID: -7358158550409643634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_22
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 130
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093b53a05b8bbbb50800000000000000
+      internalID: 6610079965796217744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_23
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 130
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d171fad1c4b3830800000000000000
+      internalID: 4051915980125183242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 109
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35dd5da4165a7ba30800000000000000
+      internalID: 4231032212223810899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_25
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 113
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2faaa0fefbfd9c0800000000000000
+      internalID: -3900187718882495816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_26
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 109
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529f79b0fb4ed9110800000000000000
+      internalID: 1269422179172743461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 114
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945882d3e39b852e0800000000000000
+      internalID: -2136754346222123703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_28
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 116
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b52c00288262450800000000000000
+      internalID: 6063578487124548501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_29
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 114
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1268a21734e7f5840800000000000000
+      internalID: 5215025721644844577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_30
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 96
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470163262138dee80800000000000000
+      internalID: -8147712035862998924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_31
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 97
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae5cf2c5e7ee0430800000000000000
+      internalID: 3751190513651048107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_32
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 96
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5bf49421b99fe20800000000000000
+      internalID: 3384907097787315671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_33
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 98
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616fda3e8df9c6e40800000000000000
+      internalID: 5651067386324710934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_34
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 96
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989dd3ac4fa4b0620800000000000000
+      internalID: 2741367213410605449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_35
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 98
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596c0f3a180cbe510800000000000000
+      internalID: 1579567757357270677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_36
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 82
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215ddb74f96fd52c0800000000000000
+      internalID: -4441122493553584878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_37
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 82
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6672f3a993f857010800000000000000
+      internalID: 1186011554445731686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_38
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 82
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8dafdeb676e4da0800000000000000
+      internalID: -5958711543712786177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_39
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 82
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77aa9cf1abb05a550800000000000000
+      internalID: 6171351758406265463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_40
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 82
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb0a3c3fa5e59050800000000000000
+      internalID: 5806799835356597194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_41
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 82
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727fdc5496e369430800000000000000
+      internalID: 3789284758342465319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_42
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 66
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d70562c6e134dda0800000000000000
+      internalID: -5921052742911719464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_43
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 66
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421a1b93fe6162d70800000000000000
+      internalID: 9017920520576934180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_44
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 66
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f364a47fb2dc430800000000000000
+      internalID: 3804745601300971391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_45
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 66
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6778496a9440a5e10800000000000000
+      internalID: 2187065283415672694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_46
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 66
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b052ce4b3a2bdbf0800000000000000
+      internalID: -298598516077211468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_47
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 66
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2668755803770a0800000000000000
+      internalID: -6883980156155305246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_48
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 45
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca9035ba66b29e20800000000000000
+      internalID: 3355945241767090887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_49
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 49
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050dec30898554b70800000000000000
+      internalID: 8882603249980330064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_50
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 45
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0fe34d658ca7130800000000000000
+      internalID: 3565382330270806207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 50
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed10efd144f71100800000000000000
+      internalID: 78800082268331489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_52
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 52
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d2fb2ff6503e0a0800000000000000
+      internalID: -6853628229555639003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_53
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 50
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fef9dc174b6bb9d0800000000000000
+      internalID: -2757492393663398158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_54
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 32
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d700ff0d763f410800000000000000
+      internalID: 1509664447428328750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_55
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 33
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470d936857efb98d0800000000000000
+      internalID: -2838395359410401164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_56
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 32
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c296aaceb9f16520800000000000000
+      internalID: 2693708649983283906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_57
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 34
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5b3d50302e64ca0800000000000000
+      internalID: -6032886148205660737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_58
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 32
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079e70634db68cea0800000000000000
+      internalID: -5852309156584232592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_59
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 34
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291aad6d2c10600e0800000000000000
+      internalID: -2304152223013494382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_60
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 7
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517a6e9b7059bc8e0800000000000000
+      internalID: -1672078976221796587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_61
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 5
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b30fe66ca554740800000000000000
+      internalID: 5135610758397180705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_62
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 7
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1bdd316d3ad2c50800000000000000
+      internalID: 6642145165292974568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_63
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 5
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f99b055192c5cc30800000000000000
+      internalID: 4379120142140545521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_64
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 22
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92b8de7199aae440800000000000000
+      internalID: 4965967981492875935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_65
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 22
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54266b7e6d75bc90800000000000000
+      internalID: -7154674519537998753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_66
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 6
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6649b825d2addb0800000000000000
+      internalID: -4766447423065921882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sticks_67
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 6
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37a1593489db8e20800000000000000
+      internalID: 3354013509428029242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 412ed2a1593706a48b7c183da0dd1b94, type: 3}
+  m_Name: LinesSO
+  m_EditorClassIdentifier: 
+  prologueLines:
+  - The year is 21XX. Humanity has not succeded in creating artificial resources
+    in order to live.
+  - After consuming almost all of the planet earth resources, only a few cities hasn't
+    crumble of hunger and thirst.
+  - In order to save the most resources possible, those cities walled themselves,
+    establishing their Central Government, which equally distributes wealth, food
+    and water.
+  - And There are peripheral zones, which can receive support from the Central Government.
+  - 'However, to avoid unnecessary bloodshed, each zone need a representant that
+    will fight his/her way against other zones representants, by acquiring points
+    doing missions. '
+  - After the points calculation, the zone of the winner with the most points will
+    receive a portion of the resources, ensuring their development and survival.
+  - 'I''m your host and today we are going to see the struggle of the contestant
+    coming from ZONE...  '

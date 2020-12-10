@@ -1,0 +1,4172 @@
+fileFormatVersion: 2
+guid: c5008f3851e0b38468985b69305c654a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -645763043341581308
+    second: kb_light_symbols_0
+  - first:
+      213: -2553962503421174014
+    second: kb_light_symbols_1
+  - first:
+      213: -2299095738831866200
+    second: kb_light_symbols_2
+  - first:
+      213: -8397053161224086370
+    second: kb_light_symbols_3
+  - first:
+      213: 6212552984401638594
+    second: kb_light_symbols_4
+  - first:
+      213: 304119906072818267
+    second: kb_light_symbols_5
+  - first:
+      213: -6416984224304233094
+    second: kb_light_symbols_6
+  - first:
+      213: 4960956247040672552
+    second: kb_light_symbols_7
+  - first:
+      213: 5676175776366361863
+    second: kb_light_symbols_8
+  - first:
+      213: 3389143208229819523
+    second: kb_light_symbols_9
+  - first:
+      213: -6322558607050851918
+    second: kb_light_symbols_10
+  - first:
+      213: 35926810976939272
+    second: kb_light_symbols_11
+  - first:
+      213: -3665433342350847741
+    second: kb_light_symbols_12
+  - first:
+      213: -5190158804780411438
+    second: kb_light_symbols_13
+  - first:
+      213: -7471204835037613683
+    second: kb_light_symbols_14
+  - first:
+      213: 4680210755056867561
+    second: kb_light_symbols_15
+  - first:
+      213: 2104194379806597190
+    second: kb_light_symbols_16
+  - first:
+      213: 1056232663520350337
+    second: kb_light_symbols_17
+  - first:
+      213: -8280609213058802652
+    second: kb_light_symbols_18
+  - first:
+      213: 8253869345547856323
+    second: kb_light_symbols_19
+  - first:
+      213: 8689568870211492393
+    second: kb_light_symbols_20
+  - first:
+      213: 778483235056807274
+    second: kb_light_symbols_21
+  - first:
+      213: 8053935278276452243
+    second: kb_light_symbols_22
+  - first:
+      213: -8916837956908362161
+    second: kb_light_symbols_23
+  - first:
+      213: -7982398318804557480
+    second: kb_light_symbols_24
+  - first:
+      213: 4052970972991191900
+    second: kb_light_symbols_25
+  - first:
+      213: 7162097787514860022
+    second: kb_light_symbols_26
+  - first:
+      213: -3357426725765488470
+    second: kb_light_symbols_27
+  - first:
+      213: 3338248594489345202
+    second: kb_light_symbols_28
+  - first:
+      213: -5753966644381491970
+    second: kb_light_symbols_29
+  - first:
+      213: 1663131729264278035
+    second: kb_light_symbols_30
+  - first:
+      213: -591414246993741338
+    second: kb_light_symbols_31
+  - first:
+      213: 8504094714876934114
+    second: kb_light_symbols_32
+  - first:
+      213: 892566698250788846
+    second: kb_light_symbols_33
+  - first:
+      213: 1913207313881840077
+    second: kb_light_symbols_34
+  - first:
+      213: -1523020610269036676
+    second: kb_light_symbols_35
+  - first:
+      213: -5333663217440395933
+    second: kb_light_symbols_36
+  - first:
+      213: -5534659623269881605
+    second: kb_light_symbols_37
+  - first:
+      213: -1419237773823717641
+    second: kb_light_symbols_38
+  - first:
+      213: 2147756432766289492
+    second: kb_light_symbols_39
+  - first:
+      213: -399238806269907023
+    second: kb_light_symbols_40
+  - first:
+      213: -1891589407638157792
+    second: kb_light_symbols_41
+  - first:
+      213: 7044551891111373349
+    second: kb_light_symbols_42
+  - first:
+      213: -8059835107637249080
+    second: kb_light_symbols_43
+  - first:
+      213: -507633417478662363
+    second: kb_light_symbols_44
+  - first:
+      213: 3816195803202121231
+    second: kb_light_symbols_45
+  - first:
+      213: -3607009626185003081
+    second: kb_light_symbols_46
+  - first:
+      213: 969222080207631839
+    second: kb_light_symbols_47
+  - first:
+      213: 8589157356942509845
+    second: kb_light_symbols_48
+  - first:
+      213: 266139702714027681
+    second: kb_light_symbols_49
+  - first:
+      213: 6766535040173562585
+    second: kb_light_symbols_50
+  - first:
+      213: 800372122042084560
+    second: kb_light_symbols_51
+  - first:
+      213: -6003082643500399677
+    second: kb_light_symbols_52
+  - first:
+      213: -7351671903905339034
+    second: kb_light_symbols_53
+  - first:
+      213: 2708966196456544817
+    second: kb_light_symbols_54
+  - first:
+      213: 4396454145637591575
+    second: kb_light_symbols_55
+  - first:
+      213: 6648431529817554119
+    second: kb_light_symbols_56
+  - first:
+      213: -7760586038636777483
+    second: kb_light_symbols_57
+  - first:
+      213: 4250176018671066384
+    second: kb_light_symbols_58
+  - first:
+      213: -4827244797706924420
+    second: kb_light_symbols_59
+  - first:
+      213: 9045507825994329367
+    second: kb_light_symbols_60
+  - first:
+      213: -5688653928205759152
+    second: kb_light_symbols_61
+  - first:
+      213: 5659960447248743338
+    second: kb_light_symbols_62
+  - first:
+      213: 6996932406377944759
+    second: kb_light_symbols_63
+  - first:
+      213: 9030334045349218566
+    second: kb_light_symbols_64
+  - first:
+      213: -5123227839387217592
+    second: kb_light_symbols_65
+  - first:
+      213: -9107490035759919965
+    second: kb_light_symbols_66
+  - first:
+      213: 7898413439177575913
+    second: kb_light_symbols_67
+  - first:
+      213: -5382778321566817769
+    second: kb_light_symbols_68
+  - first:
+      213: -1314107820092778412
+    second: kb_light_symbols_69
+  - first:
+      213: 6464995745112709457
+    second: kb_light_symbols_70
+  - first:
+      213: -6540985657927500692
+    second: kb_light_symbols_71
+  - first:
+      213: -8878843353232913802
+    second: kb_light_symbols_72
+  - first:
+      213: 7731919311773652087
+    second: kb_light_symbols_73
+  - first:
+      213: 3992347552567982994
+    second: kb_light_symbols_74
+  - first:
+      213: -614320723906085483
+    second: kb_light_symbols_75
+  - first:
+      213: 6590961476495507260
+    second: kb_light_symbols_76
+  - first:
+      213: -2506545188689133275
+    second: kb_light_symbols_77
+  - first:
+      213: -2586060274694509731
+    second: kb_light_symbols_78
+  - first:
+      213: -8316115981740072066
+    second: kb_light_symbols_79
+  - first:
+      213: 5091703999485591463
+    second: kb_light_symbols_80
+  - first:
+      213: -3146659318912092288
+    second: kb_light_symbols_81
+  - first:
+      213: -372976574783213327
+    second: kb_light_symbols_82
+  - first:
+      213: -1191338978121258558
+    second: kb_light_symbols_83
+  - first:
+      213: 8952414286101163965
+    second: kb_light_symbols_84
+  - first:
+      213: -8007331224576267800
+    second: kb_light_symbols_85
+  - first:
+      213: 1562854900376999768
+    second: kb_light_symbols_86
+  - first:
+      213: -2218661488708871598
+    second: kb_light_symbols_87
+  - first:
+      213: -8311996823560678141
+    second: kb_light_symbols_88
+  - first:
+      213: 8251484221171617398
+    second: kb_light_symbols_89
+  - first:
+      213: -3621043086360187726
+    second: kb_light_symbols_90
+  - first:
+      213: 1242315928390744656
+    second: kb_light_symbols_91
+  - first:
+      213: -4675355513973237274
+    second: kb_light_symbols_92
+  - first:
+      213: -8715286191991662073
+    second: kb_light_symbols_93
+  - first:
+      213: -972005679630785075
+    second: kb_light_symbols_94
+  - first:
+      213: 8032899550275233561
+    second: kb_light_symbols_95
+  - first:
+      213: 6004790814944894926
+    second: kb_light_symbols_96
+  - first:
+      213: 4544552498876214409
+    second: kb_light_symbols_97
+  - first:
+      213: -2292777932984074795
+    second: kb_light_symbols_98
+  - first:
+      213: -1267566726317696909
+    second: kb_light_symbols_99
+  - first:
+      213: -5795238576459200191
+    second: kb_light_symbols_100
+  - first:
+      213: 8933079199354031681
+    second: kb_light_symbols_101
+  - first:
+      213: -5779688152245892074
+    second: kb_light_symbols_102
+  - first:
+      213: -8622773040776003005
+    second: kb_light_symbols_103
+  - first:
+      213: -9169455450589585522
+    second: kb_light_symbols_104
+  - first:
+      213: 903012923375455255
+    second: kb_light_symbols_105
+  - first:
+      213: 64302158069984999
+    second: kb_light_symbols_106
+  - first:
+      213: 84924049979104924
+    second: kb_light_symbols_107
+  - first:
+      213: 1393128990105822556
+    second: kb_light_symbols_108
+  - first:
+      213: -7735684087934396209
+    second: kb_light_symbols_109
+  - first:
+      213: 4420604230224377700
+    second: kb_light_symbols_110
+  - first:
+      213: -8041890313293198888
+    second: kb_light_symbols_111
+  - first:
+      213: 6468592045066333652
+    second: kb_light_symbols_112
+  - first:
+      213: 6498716623661751119
+    second: kb_light_symbols_113
+  - first:
+      213: -3096584892625101196
+    second: kb_light_symbols_114
+  - first:
+      213: 2493951219087609040
+    second: kb_light_symbols_115
+  - first:
+      213: -5735085778917655667
+    second: kb_light_symbols_116
+  - first:
+      213: -5714517938012720055
+    second: kb_light_symbols_117
+  - first:
+      213: 8284610166874872306
+    second: kb_light_symbols_118
+  - first:
+      213: 3834186024142752009
+    second: kb_light_symbols_119
+  - first:
+      213: -3478782820499252367
+    second: kb_light_symbols_120
+  - first:
+      213: -637743886564791046
+    second: kb_light_symbols_121
+  - first:
+      213: 6501245962146559446
+    second: kb_light_symbols_122
+  - first:
+      213: 894281982315014896
+    second: kb_light_symbols_123
+  - first:
+      213: 6163786581692456335
+    second: kb_light_symbols_124
+  - first:
+      213: 1331905070550125622
+    second: kb_light_symbols_125
+  - first:
+      213: -1177211038939112870
+    second: kb_light_symbols_126
+  - first:
+      213: -234051766953727825
+    second: kb_light_symbols_127
+  - first:
+      213: 5672730186357391704
+    second: kb_light_symbols_128
+  - first:
+      213: -5811600731416139235
+    second: kb_light_symbols_129
+  - first:
+      213: -4461430843876673672
+    second: kb_light_symbols_130
+  - first:
+      213: -7966378254634691830
+    second: kb_light_symbols_131
+  - first:
+      213: -5361266569942279720
+    second: kb_light_symbols_132
+  - first:
+      213: 4745530993788851932
+    second: kb_light_symbols_133
+  - first:
+      213: -8995820619131783400
+    second: kb_light_symbols_134
+  - first:
+      213: -5978847279069909273
+    second: kb_light_symbols_135
+  - first:
+      213: -8129152879497817155
+    second: kb_light_symbols_136
+  - first:
+      213: 5601007806547800537
+    second: kb_light_symbols_137
+  - first:
+      213: 2869191766829065055
+    second: kb_light_symbols_138
+  - first:
+      213: 55133066148553378
+    second: kb_light_symbols_139
+  - first:
+      213: 5718056523739125663
+    second: kb_light_symbols_140
+  - first:
+      213: 409970592966185910
+    second: kb_light_symbols_141
+  - first:
+      213: -8514154111308639340
+    second: kb_light_symbols_142
+  - first:
+      213: -590902845207605813
+    second: kb_light_symbols_143
+  - first:
+      213: -7116447249352864835
+    second: kb_light_symbols_144
+  - first:
+      213: -7326905069248045696
+    second: kb_light_symbols_145
+  - first:
+      213: 6523642331085934036
+    second: kb_light_symbols_146
+  - first:
+      213: 1767027562580863249
+    second: kb_light_symbols_147
+  - first:
+      213: -8448381837273544140
+    second: kb_light_symbols_148
+  - first:
+      213: 8786329891252348313
+    second: kb_light_symbols_149
+  - first:
+      213: -1792190893442454461
+    second: kb_light_symbols_150
+  - first:
+      213: 8030610781337301752
+    second: kb_light_symbols_151
+  - first:
+      213: 3579526960255127495
+    second: kb_light_symbols_152
+  - first:
+      213: -4847495437271854998
+    second: kb_light_symbols_153
+  - first:
+      213: 7790643318407469157
+    second: kb_light_symbols_154
+  - first:
+      213: 6021784530836551181
+    second: kb_light_symbols_155
+  - first:
+      213: 687343225618026372
+    second: kb_light_symbols_156
+  - first:
+      213: -2056864865012786056
+    second: kb_light_symbols_157
+  - first:
+      213: -5920197414956116879
+    second: kb_light_symbols_158
+  - first:
+      213: 6571919302932241198
+    second: kb_light_symbols_159
+  - first:
+      213: 2661221847692779414
+    second: kb_light_symbols_160
+  - first:
+      213: 6942447375982063906
+    second: kb_light_symbols_161
+  - first:
+      213: -8572785476329379572
+    second: kb_light_symbols_162
+  - first:
+      213: 2383663518356327932
+    second: kb_light_symbols_163
+  - first:
+      213: 5996464975935947681
+    second: kb_light_symbols_164
+  - first:
+      213: 5749384984713216544
+    second: kb_light_symbols_165
+  - first:
+      213: 3464328893687615740
+    second: kb_light_symbols_166
+  - first:
+      213: -416444909965955023
+    second: kb_light_symbols_167
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kb_light_symbols_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 403
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404cc88fee9c907f0800000000000000
+      internalID: -645763043341581308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 402
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fd9e572a08e8cd0800000000000000
+      internalID: -2553962503421174014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 403
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6ff4e4b98f710e0800000000000000
+      internalID: -2299095738831866200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_3
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 402
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9cda2da3aca77b80800000000000000
+      internalID: -8397053161224086370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_4
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 403
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c47d87160c673650800000000000000
+      internalID: 6212552984401638594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_5
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 402
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52789a7173783400800000000000000
+      internalID: 304119906072818267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_6
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 403
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a758f0db8da42f6a0800000000000000
+      internalID: -6416984224304233094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_7
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 402
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8234d132c6bd8d440800000000000000
+      internalID: 4960956247040672552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 387
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d7ef08bc3d5ce40800000000000000
+      internalID: 5676175776366361863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 386
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384577b9ac7a80f20800000000000000
+      internalID: 3389143208229819523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 387
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9352bf172c148a0800000000000000
+      internalID: -6322558607050851918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_11
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 386
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d61368e33af7000800000000000000
+      internalID: 35926810976939272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 387
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3011e41abc3c12dc0800000000000000
+      internalID: -3665433342350847741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_13
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 386
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d59231d01ad8f7b0800000000000000
+      internalID: -5190158804780411438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_14
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 387
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81f66369c2f05890800000000000000
+      internalID: -7471204835037613683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_15
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 386
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8902982e273f040800000000000000
+      internalID: 4680210755056867561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 371
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640eeb2d3a9933d10800000000000000
+      internalID: 2104194379806597190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 370
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1809b45e20e78ae00800000000000000
+      internalID: 1056232663520350337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_18
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 371
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c9dc31bcd551d80800000000000000
+      internalID: -8280609213058802652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 370
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9addb5072ab8270800000000000000
+      internalID: 8253869345547856323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_20
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 371
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a9f3029dc879870800000000000000
+      internalID: 8689568870211492393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_21
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 370
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d6821b06abdca00800000000000000
+      internalID: 778483235056807274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_22
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 371
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f97a9c67355cf60800000000000000
+      internalID: 8053935278276452243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_23
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 370
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46d1c22f17014480800000000000000
+      internalID: -8916837956908362161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 355
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851aaf78503d83190800000000000000
+      internalID: -7982398318804557480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 354
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5bfb1a50ab0f3830800000000000000
+      internalID: 4052970972991191900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_26
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 355
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f13f67cdf1e46360800000000000000
+      internalID: 7162097787514860022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 354
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0685b6e260861d0800000000000000
+      internalID: -3357426725765488470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_28
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 355
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b40c7ee867d35e20800000000000000
+      internalID: 3338248594489345202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_29
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 354
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efcd130a2ddc520b0800000000000000
+      internalID: -5753966644381491970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_30
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 355
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a7a710f71a41710800000000000000
+      internalID: 1663131729264278035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_31
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 354
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e935d430efdac7f0800000000000000
+      internalID: -591414246993741338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 339
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e73488261d940670800000000000000
+      internalID: 8504094714876934114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_33
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 338
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eefd49bdea8036c00800000000000000
+      internalID: 892566698250788846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_34
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 339
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc93b955ae31d8a10800000000000000
+      internalID: 1913207313881840077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_35
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 338
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fb05303d42ddae0800000000000000
+      internalID: -1523020610269036676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_36
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 339
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36de5ec00950bf5b0800000000000000
+      internalID: -5333663217440395933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_37
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 338
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf82d428560f033b0800000000000000
+      internalID: -5534659623269881605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_38
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 339
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fecb6f93cadd4ce0800000000000000
+      internalID: -1419237773823717641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_39
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 338
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4564817a81d5ecd10800000000000000
+      internalID: 2147756432766289492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_40
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 323
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf2bb3cb6e957af0800000000000000
+      internalID: -399238806269907023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_41
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 322
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02606d0b479bfb5e0800000000000000
+      internalID: -1891589407638157792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_42
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 323
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52aef7f0f9643c160800000000000000
+      internalID: 7044551891111373349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_43
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 322
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb3f052ca6b52090800000000000000
+      internalID: -8059835107637249080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_44
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 323
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527111ba81684f8f0800000000000000
+      internalID: -507633417478662363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_45
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 322
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ee23b2dd9d5f430800000000000000
+      internalID: 3816195803202121231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_46
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 323
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf04d11bd351fdc0800000000000000
+      internalID: -3607009626185003081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_47
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 322
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5bd37c85e537d00800000000000000
+      internalID: 969222080207631839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_48
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 307
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517cd7cdb11d23770800000000000000
+      internalID: 8589157356942509845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_49
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 306
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aec5e846a481b300800000000000000
+      internalID: 266139702714027681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_50
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 307
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da57c5b4cf87ed50800000000000000
+      internalID: 6766535040173562585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_51
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 306
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dca176543e7b1b00800000000000000
+      internalID: 800372122042084560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_52
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 307
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c388d43424c0bca0800000000000000
+      internalID: -6003082643500399677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_53
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 306
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669a08eaa5d99f990800000000000000
+      internalID: -7351671903905339034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_54
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 307
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a5558276e289520800000000000000
+      internalID: 2708966196456544817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_55
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 306
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71aa50680c7530d30800000000000000
+      internalID: 4396454145637591575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_56
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 291
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc38406049f34c50800000000000000
+      internalID: 6648431529817554119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_57
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 290
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ffe23e7d1cdc4490800000000000000
+      internalID: -7760586038636777483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_58
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 291
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01dd5c11298abfa30800000000000000
+      internalID: 4250176018671066384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_59
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 290
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e83dcae6e220db0800000000000000
+      internalID: -4827244797706924420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_60
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 291
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d686d4179188d70800000000000000
+      internalID: 9045507825994329367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_61
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 290
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d4a2f5467dd01b0800000000000000
+      internalID: -5688653928205759152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_62
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 291
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabb50df9083c8e40800000000000000
+      internalID: 5659960447248743338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_63
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 290
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b69397c3f81a1160800000000000000
+      internalID: 6996932406377944759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_64
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 275
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609082038f0325d70800000000000000
+      internalID: 9030334045349218566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_65
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 274
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841dee19c63a6e8b0800000000000000
+      internalID: -5123227839387217592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_66
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 275
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3acce17e012bb9180800000000000000
+      internalID: -9107490035759919965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_67
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 274
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9edc953ec2dcc9d60800000000000000
+      internalID: 7898413439177575913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_68
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 275
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712265eb2a78c45b0800000000000000
+      internalID: -5382778321566817769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_69
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 274
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4589eca66e953cde0800000000000000
+      internalID: -1314107820092778412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_70
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 275
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159dadd806748b950800000000000000
+      internalID: 6464995745112709457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_71
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 274
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c7e422330c935a0800000000000000
+      internalID: -6540985657927500692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_72
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 259
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ac63a230308c480800000000000000
+      internalID: -8878843353232913802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_73
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 258
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774504a06ab4d4b60800000000000000
+      internalID: 7731919311773652087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_74
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 259
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bf6ba52faa76730800000000000000
+      internalID: 3992347552567982994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_75
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 258
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59dba617e8e7977f0800000000000000
+      internalID: -614320723906085483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_76
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 259
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f7cceda8cc77b50800000000000000
+      internalID: 6590961476495507260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_77
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 258
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52148be5e66f63dd0800000000000000
+      internalID: -2506545188689133275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_78
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 259
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ba517b1e77c1cd0800000000000000
+      internalID: -2586060274694509731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_79
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 258
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e732f654398379c80800000000000000
+      internalID: -8316115981740072066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_80
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 243
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af36ce7fcd59a640800000000000000
+      internalID: 5091703999485591463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_81
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 242
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087721b6502d454d0800000000000000
+      internalID: -3146659318912092288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_82
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 243
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0318608cbe2daf0800000000000000
+      internalID: -372976574783213327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_83
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 242
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9610ae283877fe0800000000000000
+      internalID: -1191338978121258558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_84
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 244
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf213d7c5d5d3c70800000000000000
+      internalID: 8952414286101163965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_85
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 243
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9ec380dae30e090800000000000000
+      internalID: -8007331224576267800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_86
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 244
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8571374604060b510800000000000000
+      internalID: 1562854900376999768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_87
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 243
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a1ba8812bb531e0800000000000000
+      internalID: -2218661488708871598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_88
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 227
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3059d758dead5ac80800000000000000
+      internalID: -8311996823560678141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_89
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 226
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ecca05e29238270800000000000000
+      internalID: 8251484221171617398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_90
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 227
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bced118f787fbdc0800000000000000
+      internalID: -3621043086360187726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_91
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 226
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a3a8a31c79d3110800000000000000
+      internalID: 1242315928390744656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_92
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 228
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e916fe5eeccd1fb0800000000000000
+      internalID: -4675355513973237274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_93
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 227
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a587a42651d0780800000000000000
+      internalID: -8715286191991662073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_94
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 228
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5e1f9fbfdb282f0800000000000000
+      internalID: -972005679630785075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_95
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 227
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917ec82b4979a7f60800000000000000
+      internalID: 8032899550275233561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_96
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 211
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf91537e6d455350800000000000000
+      internalID: 6004790814944894926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_97
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 210
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c61ae6b6e711f30800000000000000
+      internalID: 4544552498876214409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_98
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 211
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd31ab1e9a6e20e0800000000000000
+      internalID: -2292777932984074795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_99
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 210
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3789abc37c2b86ee0800000000000000
+      internalID: -1267566726317696909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_100
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 211
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149428d183d239fa0800000000000000
+      internalID: -5795238576459200191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_101
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 210
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e8debc33ca8fb70800000000000000
+      internalID: 8933079199354031681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_102
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 211
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c89d46f3c6acfa0800000000000000
+      internalID: -5779688152245892074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_103
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 210
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3424bb5da91c55880800000000000000
+      internalID: -8622773040776003005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_104
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 195
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f96db79dc8fb080800000000000000
+      internalID: -9169455450589585522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_105
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 194
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c816d2875288c00800000000000000
+      internalID: 903012923375455255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_106
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 195
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee6d0ad87274e000800000000000000
+      internalID: 64302158069984999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_107
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 194
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e54e739f5bd2100800000000000000
+      internalID: 84924049979104924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_108
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 195
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c556e857f63655310800000000000000
+      internalID: 1393128990105822556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_109
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 194
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc85704be4455a490800000000000000
+      internalID: -7735684087934396209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_110
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 195
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467fc134024295d30800000000000000
+      internalID: 4420604230224377700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_111
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 194
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d901892e57756090800000000000000
+      internalID: -8041890313293198888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_112
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 179
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dda813613e05c950800000000000000
+      internalID: 6468592045066333652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_113
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 178
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4bd8496654103a50800000000000000
+      internalID: 6498716623661751119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_114
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 179
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e5d325278b605d0800000000000000
+      internalID: -3096584892625101196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_115
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 178
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc8ed49b6b4c9220800000000000000
+      internalID: 2493951219087609040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_116
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 179
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8bf73faed1e860b0800000000000000
+      internalID: -5735085778917655667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_117
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 178
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94477225634f1b0b0800000000000000
+      internalID: -5714517938012720055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_118
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 179
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f99a239d09d8f270800000000000000
+      internalID: 8284610166874872306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_119
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 178
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909cbc3efd3c53530800000000000000
+      internalID: 3834186024142752009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_120
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 163
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b1965c471e8bfc0800000000000000
+      internalID: -3478782820499252367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_121
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 162
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afce0a760574627f0800000000000000
+      internalID: -637743886564791046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_122
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 163
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5303be1c0193a50800000000000000
+      internalID: 6501245962146559446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_123
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 162
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa2bec89b0296c00800000000000000
+      internalID: 894281982315014896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_124
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 163
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d19192d3b2a8550800000000000000
+      internalID: 6163786581692456335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_125
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 162
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c8eacda90eb7210800000000000000
+      internalID: 1331905070550125622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_126
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 163
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a9d561cc4b9afe0800000000000000
+      internalID: -1177211038939112870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_127
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 162
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8aba3782b70ccf0800000000000000
+      internalID: -234051766953727825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_128
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 147
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851c7709c0699be40800000000000000
+      internalID: 5672730186357391704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_129
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 146
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a6a8b0deb095fa0800000000000000
+      internalID: -5811600731416139235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_130
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 147
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87772c00940d512c0800000000000000
+      internalID: -4461430843876673672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_131
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 146
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a035a126f2db17190800000000000000
+      internalID: -7966378254634691830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_132
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 131
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9d968b574f895b0800000000000000
+      internalID: -5361266569942279720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_133
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 130
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd61463cb438bd140800000000000000
+      internalID: 4745530993788851932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_134
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 131
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817f38d0fcc682380800000000000000
+      internalID: -8995820619131783400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_135
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 130
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee2ab4b31ed60da0800000000000000
+      internalID: -5978847279069909273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_136
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 115
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db350b4b6827f2f80800000000000000
+      internalID: -8129152879497817155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_137
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 114
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1b875bce6cabd40800000000000000
+      internalID: 5601007806547800537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_138
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 115
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f536256d5ba61d720800000000000000
+      internalID: 2869191766829065055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_139
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 114
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2a9274b3fd3c000800000000000000
+      internalID: 55133066148553378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_140
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 99
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97531fdc1e9a5f40800000000000000
+      internalID: 5718056523739125663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_141
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 98
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b31b1a051280b500800000000000000
+      internalID: 409970592966185910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_142
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 99
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493548812f5a7d980800000000000000
+      internalID: -8514154111308639340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_143
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 98
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd02a63ef0bcc7f0800000000000000
+      internalID: -590902845207605813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_144
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 83
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb44876eec4d3d90800000000000000
+      internalID: -7116447249352864835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_145
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 82
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d167cb8aa915a90800000000000000
+      internalID: -7326905069248045696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_146
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 83
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd041ae222a88a50800000000000000
+      internalID: 6523642331085934036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_147
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 82
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119e4ffb43eb58810800000000000000
+      internalID: 1767027562580863249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_148
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 67
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ac27efa7151ca80800000000000000
+      internalID: -8448381837273544140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_149
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 66
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9952e7feb705fe970800000000000000
+      internalID: 8786329891252348313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_150
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 67
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c2caab0ebd027e0800000000000000
+      internalID: -1792190893442454461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_151
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 66
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2380725f5727f60800000000000000
+      internalID: 8030610781337301752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_152
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 51
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfc0f12ec80da130800000000000000
+      internalID: 3579526960255127495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_153
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 50
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60951b359c3abcb0800000000000000
+      internalID: -4847495437271854998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_154
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 51
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568927d42dced1c60800000000000000
+      internalID: 7790643318407469157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_155
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 50
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d067472402da19350800000000000000
+      internalID: 6021784530836551181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_156
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 35
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48fcbb1a50fe98900800000000000000
+      internalID: 687343225618026372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_157
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 34
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c5ee19d4c8473e0800000000000000
+      internalID: -2056864865012786056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_158
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 35
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174da5151db37dda0800000000000000
+      internalID: -5920197414956116879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_159
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 34
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b1fc759c5243b50800000000000000
+      internalID: 6571919302932241198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_160
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 17
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f9c34bb2f8ee420800000000000000
+      internalID: 2661221847692779414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_161
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221f0451b17885060800000000000000
+      internalID: 6942447375982063906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_162
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 17
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0962c3a709570980800000000000000
+      internalID: -8572785476329379572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_163
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfdcfab3759741120800000000000000
+      internalID: 2383663518356327932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_164
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3cbbeff19b73350800000000000000
+      internalID: 5996464975935947681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_165
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022cbca9e2be9cf40800000000000000
+      internalID: 5749384984713216544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_166
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 3
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf05f5526c4c31030800000000000000
+      internalID: 3464328893687615740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kb_light_symbols_167
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130b5f09f8d783af0800000000000000
+      internalID: -416444909965955023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
