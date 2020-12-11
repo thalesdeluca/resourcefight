@@ -114,7 +114,6 @@ public class DialogueScript : MonoBehaviour {
   }
 
   public void ChangeLine(string newLine) {
-    Debug.Log(newLine);
     queue = new Queue<string>(lines.GetLines(newLine));
   }
 

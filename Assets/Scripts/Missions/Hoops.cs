@@ -19,13 +19,12 @@ public class Hoops : MissionComponent {
   // Start is called before the first frame update
   void Start() {
     Debug.Log(
-      "StartHits"
+      "StartHoops"
     );
     dialogue = this.GetComponent<DialogueScript>();
-    dialogue.ChangeLine("hits");
+    dialogue.ChangeLine("hoops");
     dialogue.StartWriting();
     time = maxTime;
-    this.GetComponent<MissionController>().FinishMission(true, time);
     ball = GameObject.Find("ball");
     timeText = GameObject.Find("Time").GetComponent<TMPro.TextMeshProUGUI>();
   }
@@ -45,4 +44,5 @@ public class Hoops : MissionComponent {
       Time.timeScale = 0;
     }
   }
+
 }

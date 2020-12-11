@@ -99,8 +99,6 @@ public class Water : Element {
     if (throwed) {
       float distance = Vector2.Distance(effect.transform.localScale, throwPoint);
 
-      Debug.Log(distance + " >= " + effect.transform.localScale + " " + throwPoint);
-
       if (distance >= 0 && distance <= BlockRange / 5f) {
         if (!effect) {
           effect = Instantiate(abilities.waterBlock, this.transform.position, Quaternion.identity);
@@ -128,7 +126,6 @@ public class Water : Element {
       rigidbody.MovePosition(this.transform.position + (Vector3)direction);
       float distance = Vector2.Distance((Vector2)rigidbody.transform.position, throwPoint);
 
-      Debug.Log("dash " + distance);
 
       if (distance >= 0 && distance <= 0.03) {
         CancelDash();
@@ -151,7 +148,6 @@ public class Water : Element {
   }
 
   void CancelDash() {
-    Debug.Log("CancelDash");
     dashed = false;
     executing = false;
     if (effect) {
@@ -232,7 +228,6 @@ public class Water : Element {
         directionAttack = movement.Direction.normalized;
 
         throwPoint = effect.transform.localScale + (new Vector3(0, BlockRange, 0));
-        Debug.Log("Angle: " + throwPoint);
         Vector3 position = attackPoint.position + (new Vector3(AttackRange / 2f, 0, 0));
 
 

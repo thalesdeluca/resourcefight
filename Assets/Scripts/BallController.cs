@@ -44,7 +44,7 @@ public class BallController : MonoBehaviour {
 
       rigidbody.velocity = new Vector2(0, 0);
       var force = new Vector2(direction.x * element.Knockback, direction.y * element.Knockback);
-      Debug.Log(force + " " + direction);
+
       rigidbody.AddForce(force, ForceMode2D.Impulse);
       hitMaxTime = element.Knockback / 15f;
       hits++;

@@ -16,7 +16,10 @@ public class MissionController : MonoBehaviour {
 
   private MissionComponent missionScript;
 
+  [SerializeField]
   public Queue<MissionType> missions;
+
+  [SerializeField]
 
   public List<Mission> missionsFinished = new List<Mission>();
 
@@ -28,14 +31,13 @@ public class MissionController : MonoBehaviour {
     missions.Enqueue(MissionType.Hits);
     missions.Enqueue(MissionType.Hoops);
 
-
     UpdateMission();
 
 
   }
 
   void UpdateMission() {
-
+    Debug.Log(missions.Count);
     switch (missions.Peek()) {
 
       case MissionType.Hits:

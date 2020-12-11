@@ -19,12 +19,15 @@ public abstract class MissionComponent : MonoBehaviour {
 
   protected GameObject countdownText;
 
+  protected float maxCountdown = 3f;
+
   public abstract void OnSucceed();
 
 
   public void StartMission() {
-    started = true;
-    Time.timeScale = 1;
+    countdown = true;
+    time = maxCountdown;
+     countdownText.GetComponent<TMPro.TextMeshProUGUI>().enabled = true;
   }
 
   protected void PointToTarget() {

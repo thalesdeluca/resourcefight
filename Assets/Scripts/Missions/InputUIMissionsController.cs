@@ -22,6 +22,7 @@ public class InputUIMissionsController : MonoBehaviour {
     if (context.started) {
       var startGame = dialogueScript.Submit();
       if (startGame) {
+        mission = GetComponent<MissionComponent>();
         mission.StartMission();
 
       }

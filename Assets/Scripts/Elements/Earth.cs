@@ -101,7 +101,6 @@ public class Earth : Element {
     if (throwed) {
       var distance = Vector2.Distance(effect.transform.localScale, throwPoint) / 2f;
 
-      Debug.Log(distance + " >= " + BlockRange);
 
       if (distance >= BlockRange) {
         if (!effect) {
@@ -128,7 +127,6 @@ public class Earth : Element {
       rigidbody.MovePosition(this.transform.position + (Vector3)direction);
       float distance = Vector2.Distance((Vector2)rigidbody.transform.position, throwPoint);
 
-      Debug.Log(distance);
       if (distance >= 0 && distance <= 0.03) {
         CancelDash();
       }

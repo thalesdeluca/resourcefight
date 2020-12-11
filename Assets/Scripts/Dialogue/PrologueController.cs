@@ -74,7 +74,6 @@ public class PrologueController : MonoBehaviour {
 
   public void StartDialog() {
     if (dialog.lineIndex > 0) {
-      Debug.Log("start dialog");
       dialog.GetComponent<Image>().enabled = true;
       dialog.transform.Find("Text").gameObject.SetActive(true);
       dialog.StartWriting();

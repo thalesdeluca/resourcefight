@@ -18,7 +18,6 @@ public class AnimationImage : MonoBehaviour {
   }
 
   void HideDialog() {
-    Debug.Log("Hide: " + this.gameObject.name);
     this.gameObject.SetActive(false);
   }
 
