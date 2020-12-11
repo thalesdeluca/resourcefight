@@ -5,7 +5,7 @@ using UnityEngine;
 public class BallController : MonoBehaviour {
 
   private Rigidbody2D rigidbody;
-  private int hits = 0;
+  public int hits { get; private set; }
 
   private bool hit;
   [SerializeField]
@@ -21,7 +21,7 @@ public class BallController : MonoBehaviour {
   void Start() {
     rigidbody = GetComponent<Rigidbody2D>();
     element = GameObject.Find("Player").GetComponent<Element>();
-
+    hits = 0;
   }
 
   void Update() {

@@ -9,6 +9,8 @@ public abstract class MissionComponent : MonoBehaviour {
 
   protected float time;
 
+  protected float maxTime = 30f;
+
   protected bool started = false;
 
   protected bool countdown = false;
@@ -20,8 +22,9 @@ public abstract class MissionComponent : MonoBehaviour {
   public abstract void OnSucceed();
 
 
-  protected void StartMission() {
-
+  public void StartMission() {
+    started = true;
+    Time.timeScale = 1;
   }
 
   protected void PointToTarget() {

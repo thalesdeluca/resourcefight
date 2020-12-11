@@ -7,7 +7,7 @@ public class Escape : MissionComponent {
   private float maxTime = 30f;
 
   void Start() {
-    type = MissionType.Escape;
+
     Time.timeScale = 0;
     countdownText = GameObject.Find("Countdown");
   }

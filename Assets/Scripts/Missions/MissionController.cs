@@ -5,7 +5,6 @@ using System;
 using System.Linq;
 
 public enum MissionType {
-  Escape,
   Hits,
   Hoops,
 }
@@ -17,21 +16,28 @@ public class MissionController : MonoBehaviour {
 
   private MissionComponent missionScript;
 
+  public Queue<MissionType> missions;
+
+  public List<Mission> missionsFinished = new List<Mission>();
+
   // Start is called before the first frame update
   void Start() {
-    if (missionSystem) {
-      if (missionSystem.missions.Count == 0) {
-        missionSystem.missions = this.GenerateMissions();
-        UpdateMission();
-      }
-    }
+
+
+    missions = new Queue<MissionType>();
+    missions.Enqueue(MissionType.Hits);
+    missions.Enqueue(MissionType.Hoops);
+
+
+    UpdateMission();
+
+
   }
 
   void UpdateMission() {
-    switch (missionSystem.missions.Peek()) {
-      case MissionType.Escape:
-        missionScript = this.gameObject.AddComponent<Escape>();
-        break;
+
+    switch (missions.Peek()) {
+
       case MissionType.Hits:
         missionScript = this.gameObject.AddComponent<Hits>();
         break;
@@ -39,36 +45,26 @@ public class MissionController : MonoBehaviour {
         missionScript = this.gameObject.AddComponent<Hoops>();
         break;
     }
+
+
   }
 
-  public void FinishMission(bool succeeded, float time) {
-    if (missionSystem.missions.Count > 0) {
-      missionSystem.missionsFinished.Add(new Mission(missionSystem.missions.Peek(), succeeded, time));
-      missionSystem.missions.Dequeue();
+  public void FinishMission(bool succeeded, float time, int hits) {
+    if (missions.Count > 0) {
+      missionsFinished.Add(new Mission(missions.Peek(), succeeded, time, hits));
+      missions.Dequeue();
       Destroy(missionScript);
       UpdateMission();
     }
   }
 
-  Queue<MissionType> GenerateMissions() {
-    Queue<MissionType> queue = new Queue<MissionType>();
-    List<MissionType> remaining = Enum.GetValues(typeof(MissionType)).Cast<MissionType>().ToList<MissionType>();
-
-    int random = UnityEngine.Random.Range(0, 2);
-
-    queue.Enqueue(remaining[random]);
-    remaining.RemoveAt(random);
-
-    random = UnityEngine.Random.Range(0, 1);
-
-    queue.Enqueue(remaining[random]);
-    remaining.RemoveAt(random);
-
-    queue.Enqueue(remaining[0]);
-    remaining.RemoveAt(0);
-
-
-    return queue;
+  public void FinishMission(bool succeeded, float time) {
+    if (missions.Count > 0) {
+      missionsFinished.Add(new Mission(missions.Peek(), succeeded, time));
+      missions.Dequeue();
+      Destroy(missionScript);
+      UpdateMission();
+    }
   }
 
 

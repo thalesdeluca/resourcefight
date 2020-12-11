@@ -14,9 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fireAttack: {fileID: 2728957804412348002, guid: f5e25eabb3bb71f48bd7fd68da01af1f,
     type: 3}
-  fireDash: {fileID: 2728957804412348002, guid: f5e25eabb3bb71f48bd7fd68da01af1f,
-    type: 3}
-  fireBlock: {fileID: 2728957804412348002, guid: f5e25eabb3bb71f48bd7fd68da01af1f,
+  fireDash: {fileID: 513644516451296619, guid: 334e71a3ae5a2dc43a3b51a229d1ce9c, type: 3}
+  fireBlock: {fileID: 3232344731091619491, guid: a9b6c1776057b5d4499d1b06b77a2094,
     type: 3}
   waterAttack: {fileID: 6566632429871850333, guid: f28df185c79b85945b18f1059a0eeefb,
     type: 3}
@@ -24,9 +23,9 @@ MonoBehaviour:
     type: 3}
   waterBlock: {fileID: 8728539027183231410, guid: cfb9253b01541c545af2a025526f0613,
     type: 3}
-  electricAttack: {fileID: 2324220789187060802, guid: 04c5fcbcc5e43e948bcf136c6765713f,
+  electricAttack: {fileID: 6698046719384047330, guid: 74425af7a0cf01441a379fe383ca36f4,
     type: 3}
-  electricDash: {fileID: 2324220789187060802, guid: 04c5fcbcc5e43e948bcf136c6765713f,
+  electricDash: {fileID: 6752911949575555875, guid: 61f355bc407268c47b299aee60f9d131,
     type: 3}
   electricBlock: {fileID: 6698046719384047330, guid: 74425af7a0cf01441a379fe383ca36f4,
     type: 3}

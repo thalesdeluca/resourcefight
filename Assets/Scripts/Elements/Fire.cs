@@ -172,6 +172,9 @@ public class Fire : Element {
         var teste = context.ReadValue<float>();
 
         var attackPoint = GameObject.Find("AttackPoint").GetComponent<Transform>();
+
+        this.gameObject.GetComponent<Animator>().Play(grounded.isGrounded ? "attack" : "jumpAttack");
+
         Vector3 position = attackPoint.position + (new Vector3(AttackRange / 2f, 0, 0));
 
         angle = Vector2.Angle(movement.Direction, Vector2.right);
@@ -212,6 +215,7 @@ public class Fire : Element {
         Knockback = knockback;
 
         var attackPoint = GameObject.Find("AttackPoint").GetComponent<Transform>();
+        this.gameObject.GetComponent<Animator>().Play(grounded.isGrounded ? "attack" : "jumpAttack");
 
         rigidbody.AddForce(movement.Direction.normalized * (-attackImpulse), ForceMode2D.Impulse);
         directionAttack = movement.Direction.normalized;

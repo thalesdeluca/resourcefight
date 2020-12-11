@@ -16,10 +16,6 @@ public class DialogueScript : MonoBehaviour {
 
   private Queue<string> queue;
 
-  private PrologueController prologueController;
-
-  private TMPro.TextMeshProUGUI text;
-
   private Coroutine writingEffect;
 
   public bool writing { get; private set; }
@@ -34,33 +30,37 @@ public class DialogueScript : MonoBehaviour {
   private GameObject nextBtn;
   // Start is called before the first frame update
   void Start() {
-    prologueController = GameObject.Find("EventSystem").GetComponent<PrologueController>();
-    queue = new Queue<string>(lines.GetLines(line));
-    text = this.transform.Find("Text").gameObject.GetComponent<TMPro.TextMeshProUGUI>();
-    nextBtn = this.transform.Find("Next").gameObject;
+    if (line != null) {
+      queue = new Queue<string>(lines.GetLines(line));
+      lineIndex = queue.Count - 1;
+    }
+
+    nextBtn = GameObject.Find("Dialogue").transform.Find("Next").gameObject;
 
     writing = false;
-    lineIndex = queue.Count - 1;
+
   }
 
   void Update() {
     if (writing) {
       if (time < timeSkip) {
-        time += Time.deltaTime;
+        time += Time.unscaledDeltaTime;
       } else {
-        nextBtn.SetActive(true);
+        GameObject.Find("Dialogue").transform.Find("Next").gameObject.SetActive(true);
+
       }
     }
   }
 
   IEnumerator StartNewLine() {
     ToggleShow(true);
+    var text = GameObject.Find("Dialogue").transform.Find("Text").gameObject.GetComponent<TMPro.TextMeshProUGUI>();
     text.text = "";
     writing = true;
-    line = queue.Peek();
-    for (int i = 0; i < line.Length; i++) {
-      text.text += line[i];
-      yield return new WaitForSeconds(delay);
+    var lineText = queue.Peek();
+    for (int i = 0; i < lineText.Length; i++) {
+      text.text += lineText[i];
+      yield return new WaitForSecondsRealtime(delay);
     }
     writing = false;
   }
@@ -69,7 +69,7 @@ public class DialogueScript : MonoBehaviour {
     if (queue.Count > 0) {
       if (writing) {
         if (time >= timeSkip) {
-
+          var text = GameObject.Find("Dialogue").transform.Find("Text").gameObject.GetComponent<TMPro.TextMeshProUGUI>();
           writing = false;
           if (text.text.Length < queue.Peek().Length) {
             text.text = queue.Peek();
@@ -91,8 +91,10 @@ public class DialogueScript : MonoBehaviour {
 
   void ToggleShow(bool show) {
 
-    this.GetComponent<Image>().enabled = show;
-    text.enabled = show;
+    GameObject.Find("Dialogue").GetComponent<Image>().enabled = show;
+    GameObject.Find("Dialogue").transform.Find("Text").gameObject.GetComponent<TMPro.TextMeshProUGUI>().enabled = show;
+
+
 
     if (!show) {
       nextBtn.SetActive(false);
@@ -112,6 +114,7 @@ public class DialogueScript : MonoBehaviour {
   }
 
   public void ChangeLine(string newLine) {
+    Debug.Log(newLine);
     queue = new Queue<string>(lines.GetLines(newLine));
   }
 

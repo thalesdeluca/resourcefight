@@ -28,3 +28,10 @@ MonoBehaviour:
     receive a portion of the resources, ensuring their development and survival.
   - 'I''m your host and today we are going to see the struggle of the contestant
     coming from ZONE...  '
+  hoopsLines:
+  - On this mission, the contestant needs to lanch the ball towards the marked spot
+    on the minimap. Let's see what he got!
+  escapeLines: []
+  hitsLines:
+  - On this mission, the contestant needs to hit the ball as many times possible
+    in the time interval. Let's watch this one!

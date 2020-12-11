@@ -175,6 +175,8 @@ public class Electric : Element {
 
         var attackPoint = GameObject.Find("AttackPoint").GetComponent<Transform>();
         Vector3 position = attackPoint.position + (new Vector3(AttackRange / 2f, 0, 0));
+        this.gameObject.GetComponent<Animator>().Play(grounded.isGrounded ? "attack" : "jumpAttack");
+
 
         angle = Vector2.Angle(movement.Direction, Vector2.right);
         angle = angle > 90 ? angle % 90 : angle;
@@ -211,6 +213,8 @@ public class Electric : Element {
         var attackPoint = GameObject.Find("AttackPoint").GetComponent<Transform>();
         throwPoint = new Vector3(BlockRange, BlockRange, 0);
         Knockback = knockback;
+        this.gameObject.GetComponent<Animator>().Play(grounded.isGrounded ? "attack" : "jumpAttack");
+
 
         blockTime = 0;
         throwed = true;

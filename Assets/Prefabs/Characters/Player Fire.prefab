@@ -42,7 +42,32 @@ PrefabInstance:
     - target: {fileID: 886478368105208935, guid: f20c8475fc4f5fd40b1779bf0816e464,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 886478368417867996, guid: f20c8475fc4f5fd40b1779bf0816e464,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.04697889
+      objectReference: {fileID: 0}
+    - target: {fileID: 886478368417867996, guid: f20c8475fc4f5fd40b1779bf0816e464,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.010675192
+      objectReference: {fileID: 0}
+    - target: {fileID: 886478368417867996, guid: f20c8475fc4f5fd40b1779bf0816e464,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -0.019483507
+      objectReference: {fileID: 0}
+    - target: {fileID: 886478368417867996, guid: f20c8475fc4f5fd40b1779bf0816e464,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.36905396
+      objectReference: {fileID: 0}
+    - target: {fileID: 886478368685733088, guid: f20c8475fc4f5fd40b1779bf0816e464,
+        type: 3}
+      propertyPath: m_Interpolate
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 886478368685733089, guid: f20c8475fc4f5fd40b1779bf0816e464,
         type: 3}
@@ -52,12 +77,22 @@ PrefabInstance:
     - target: {fileID: 886478368685733095, guid: f20c8475fc4f5fd40b1779bf0816e464,
         type: 3}
       propertyPath: m_Offset.x
-      value: 0.0055985153
+      value: 0.022277474
       objectReference: {fileID: 0}
     - target: {fileID: 886478368685733095, guid: f20c8475fc4f5fd40b1779bf0816e464,
         type: 3}
       propertyPath: m_Size.x
-      value: 0.171197
+      value: 0.24256802
+      objectReference: {fileID: 0}
+    - target: {fileID: 886478368685733095, guid: f20c8475fc4f5fd40b1779bf0816e464,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.0025471598
+      objectReference: {fileID: 0}
+    - target: {fileID: 886478368685733095, guid: f20c8475fc4f5fd40b1779bf0816e464,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.42981878
       objectReference: {fileID: 0}
     - target: {fileID: 886478368685733116, guid: f20c8475fc4f5fd40b1779bf0816e464,
         type: 3}

@@ -37,6 +37,7 @@ public class MovementScript : MonoBehaviour {
   }
 
   void Update() {
+
     if (moving) {
       if (!element.Executing) {
         sprite.flipX = direction.x < 0;
@@ -50,10 +51,15 @@ public class MovementScript : MonoBehaviour {
         lastDirection = directionAttack;
         var targetSpeed = grounded.isGrounded ? speed : airSpeed;
         rigidbody.velocity = new Vector2(direction.x * targetSpeed, rigidbody.velocity.y);
+        if (grounded.isGrounded && rigidbody.velocity != Vector2.zero) {
+          this.gameObject.GetComponent<Animator>().Play("walk");
+        }
       }
 
     } else if (!element.Executing) {
       rigidbody.velocity = new Vector2(0, rigidbody.velocity.y);
+      this.gameObject.GetComponent<Animator>().Play("idle");
+
     }
   }
 
