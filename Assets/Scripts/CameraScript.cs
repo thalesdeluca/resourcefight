@@ -21,4 +21,10 @@ public class CameraScript : MonoBehaviour {
       this.transform.position = Vector3.Lerp(this.transform.position, targetPosition, cameraSpeed * Time.deltaTime);
     }
   }
+
+  public void GoToPlayer() {
+    Vector3 targetPosition = new Vector3(player.transform.position.x, player.transform.position.y + offsetY, this.transform.position.z);
+
+    this.transform.position = targetPosition;
+  }
 }

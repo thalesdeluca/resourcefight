@@ -4,12 +4,7 @@ using UnityEngine;
 using System;
 
 [System.Serializable]
-public enum ElementType {
-  Fire,
-  Water,
-  Earth,
-  Electric
-}
+
 
 [CreateAssetMenu(fileName = "Ability", menuName = "ScriptableObjects/Ability")]
 public class Ability : ScriptableObject {

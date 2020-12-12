@@ -14,7 +14,9 @@ enum PlayerState {
 }
 public class PlayerScript : MonoBehaviour {
 
-
+  void Start() {
+    this.gameObject.name = "Player";
+  }
 
   // Update is called once per frame
   void Update() {

@@ -15,18 +15,19 @@ public class PrologueController : MonoBehaviour {
   private LinesSO lines;
   private bool selectedCharacter = false;
 
-  private PrologueStage stage = PrologueStage.None;
+  public PrologueStage stage { get; private set; }
 
   [SerializeField]
   private DialogueScript dialog;
 
   private GameObject earth, earthDestroyed;
 
-  private GameObject dome, ball, flag, missions;
+  private GameObject dome, ball, flag, missions, zone;
 
   private bool started = false;
 
   void Start() {
+    stage = PrologueStage.None;
     earth = GameObject.Find("Earth");
     earthDestroyed = GameObject.Find("Earth Destroyed");
     earthDestroyed.GetComponent<Animator>().enabled = false;
@@ -35,6 +36,8 @@ public class PrologueController : MonoBehaviour {
     missions = GameObject.Find("Missions");
     ball = missions.transform.Find("Ball").gameObject;
     flag = missions.transform.Find("Flag").gameObject;
+    zone = GameObject.Find("Zone Select");
+    zone.transform.localScale = Vector3.zero;
 
     dome.SetActive(false);
     missions.SetActive(false);
@@ -112,7 +115,7 @@ public class PrologueController : MonoBehaviour {
 
   private void ShowCharacterSelect() {
     missions.SetActive(false);
-    //selection.SetActive(true);
+    zone.transform.localScale = Vector3.one;
     stage = PrologueStage.CharacterSelect;
   }
 

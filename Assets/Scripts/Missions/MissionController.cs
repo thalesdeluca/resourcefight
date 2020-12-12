@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public enum MissionType {
   Hits,
@@ -20,8 +21,7 @@ public class MissionController : MonoBehaviour {
   public Queue<MissionType> missions;
 
   [SerializeField]
-
-  public List<Mission> missionsFinished = new List<Mission>();
+  private GameObject[] resetObjects;
 
   // Start is called before the first frame update
   void Start() {
@@ -33,6 +33,9 @@ public class MissionController : MonoBehaviour {
 
     UpdateMission();
 
+    resetObjects = new GameObject[2];
+    resetObjects[0] = GameObject.Find("ball");
+    resetObjects[1] = GameObject.Find("Player");
 
   }
 
@@ -53,21 +56,44 @@ public class MissionController : MonoBehaviour {
 
   public void FinishMission(bool succeeded, float time, int hits) {
     if (missions.Count > 0) {
-      missionsFinished.Add(new Mission(missions.Peek(), succeeded, time, hits));
+      missionSystem.missionsFinished.Add(new Mission(missions.Peek(), succeeded, time, hits));
       missions.Dequeue();
       Destroy(missionScript);
-      UpdateMission();
+      ResetObjects();
+
+      if (missions.Count > 0) {
+        UpdateMission();
+      } else {
+        SceneManager.LoadScene("Results");
+      }
+
     }
   }
 
   public void FinishMission(bool succeeded, float time) {
     if (missions.Count > 0) {
-      missionsFinished.Add(new Mission(missions.Peek(), succeeded, time));
+      missionSystem.missionsFinished.Add(new Mission(missions.Peek(), succeeded, time));
       missions.Dequeue();
       Destroy(missionScript);
-      UpdateMission();
+      ResetObjects();
+
+      if (missions.Count > 0) {
+        UpdateMission();
+      } else {
+        SceneManager.LoadScene("Results");
+      }
     }
   }
 
+  void ResetObjects() {
+    if (resetObjects != null) {
+      foreach (var obj in resetObjects) {
+        obj.GetComponent<ResetScript>().ResetPosition();
+      }
+    }
+
+    GameObject.Find("Main Camera").GetComponent<CameraScript>().GoToPlayer();
+    GameObject.Find("Player").GetComponent<Animator>().Play("Idle");
+  }
 
 }

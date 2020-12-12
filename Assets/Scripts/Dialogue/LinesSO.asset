@@ -35,3 +35,7 @@ MonoBehaviour:
   hitsLines:
   - On this mission, the contestant needs to hit the ball as many times possible
     in the time interval. Let's watch this one!
+  hoopsFinishLines:
+  - Aaaaaaaand that's it! All the missions completed! Let's see the results.
+  hitsFinishLines:
+  - And the time is out! Let's see how our contestant handles the next mission.

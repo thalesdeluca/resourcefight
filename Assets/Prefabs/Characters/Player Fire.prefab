@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dashRange: 2
-  attackRange: 2
+  attackRange: 3
   blockRange: 4
   abilities: {fileID: 11400000, guid: ff2e079d79fb83e428290acf1f97a94f, type: 2}
   knockback: 6
@@ -28,7 +28,7 @@ MonoBehaviour:
   blockExeTime: 1
   dashed: 0
   throwed: 0
-  dashCooldown: 0.3
+  dashCooldown: 0.24
   dashTime: 0
   dashForce: 0.2
   dashExeTime: 4
@@ -42,27 +42,7 @@ PrefabInstance:
     - target: {fileID: 886478368105208935, guid: f20c8475fc4f5fd40b1779bf0816e464,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 886478368417867996, guid: f20c8475fc4f5fd40b1779bf0816e464,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: -0.04697889
-      objectReference: {fileID: 0}
-    - target: {fileID: 886478368417867996, guid: f20c8475fc4f5fd40b1779bf0816e464,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 0.010675192
-      objectReference: {fileID: 0}
-    - target: {fileID: 886478368417867996, guid: f20c8475fc4f5fd40b1779bf0816e464,
-        type: 3}
-      propertyPath: m_Offset.x
-      value: -0.019483507
-      objectReference: {fileID: 0}
-    - target: {fileID: 886478368417867996, guid: f20c8475fc4f5fd40b1779bf0816e464,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 0.36905396
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 886478368685733088, guid: f20c8475fc4f5fd40b1779bf0816e464,
         type: 3}
@@ -73,26 +53,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Camera
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 886478368685733095, guid: f20c8475fc4f5fd40b1779bf0816e464,
-        type: 3}
-      propertyPath: m_Offset.x
-      value: 0.022277474
-      objectReference: {fileID: 0}
-    - target: {fileID: 886478368685733095, guid: f20c8475fc4f5fd40b1779bf0816e464,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 0.24256802
-      objectReference: {fileID: 0}
-    - target: {fileID: 886478368685733095, guid: f20c8475fc4f5fd40b1779bf0816e464,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: 0.0025471598
-      objectReference: {fileID: 0}
-    - target: {fileID: 886478368685733095, guid: f20c8475fc4f5fd40b1779bf0816e464,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 0.42981878
       objectReference: {fileID: 0}
     - target: {fileID: 886478368685733116, guid: f20c8475fc4f5fd40b1779bf0816e464,
         type: 3}

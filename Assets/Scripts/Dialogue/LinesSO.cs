@@ -16,6 +16,12 @@ public class LinesSO : ScriptableObject {
   private string[] hitsLines;
 
 
+  [SerializeField]
+
+  private string[] hoopsFinishLines;
+  [SerializeField]
+  private string[] hitsFinishLines;
+
 
   private Dictionary<string, Queue<string>> lines;
 
@@ -47,6 +53,21 @@ public class LinesSO : ScriptableObject {
         System.Array.Copy(hitsLines, linesToAdd, hitsLines.Length);
         Queue<string> prologue = new Queue<string>(linesToAdd);
         lines.Add("hits", prologue);
+      }
+
+      if (hoopsLines.Length > 0 && !lines.ContainsKey("hoops_finish")) {
+        var linesToAdd = new string[hoopsFinishLines.Length];
+        System.Array.Copy(hoopsFinishLines, linesToAdd, hoopsFinishLines.Length);
+        Queue<string> prologue = new Queue<string>(linesToAdd);
+        lines.Add("hoops_finish", prologue);
+      }
+
+
+      if (hitsFinishLines.Length > 0 && !lines.ContainsKey("hits_finish")) {
+        var linesToAdd = new string[hitsFinishLines.Length];
+        System.Array.Copy(hitsFinishLines, linesToAdd, hitsFinishLines.Length);
+        Queue<string> prologue = new Queue<string>(linesToAdd);
+        lines.Add("hits_finish", prologue);
       }
 
 

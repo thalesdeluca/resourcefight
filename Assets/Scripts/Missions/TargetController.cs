@@ -15,7 +15,10 @@ public class TargetController : MonoBehaviour {
 
   private void OnTriggerEnter2D(Collider2D other) {
     if (other.gameObject.layer == LayerMask.NameToLayer(layer)) {
-      mission.GetComponent<MissionComponent>().OnSucceed();
+      if (mission.GetComponent<MissionComponent>().type == MissionType.Hoops) {
+        mission.GetComponent<MissionComponent>().OnTarget();
+      }
+
     }
   }
 }

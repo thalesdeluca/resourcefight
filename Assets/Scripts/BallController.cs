@@ -17,6 +17,18 @@ public class BallController : MonoBehaviour {
   private Element element;
 
   private Collider2D lastCollider;
+  public PhysicsMaterial2D materialHits;
+  public PhysicsMaterial2D materialHoops;
+
+  public void ChangeToHits() {
+    rigidbody.sharedMaterial = materialHits;
+    rigidbody.gravityScale = 1;
+  }
+
+  public void ChangeToHoops() {
+    rigidbody.sharedMaterial = materialHoops;
+    rigidbody.gravityScale = 0.3f;
+  }
 
   void Start() {
     rigidbody = GetComponent<Rigidbody2D>();

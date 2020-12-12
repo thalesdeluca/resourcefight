@@ -27,7 +27,7 @@ MonoBehaviour:
     type: 3}
   electricDash: {fileID: 6752911949575555875, guid: 61f355bc407268c47b299aee60f9d131,
     type: 3}
-  electricBlock: {fileID: 6698046719384047330, guid: 74425af7a0cf01441a379fe383ca36f4,
+  electricBlock: {fileID: 3232344731091619491, guid: a9b6c1776057b5d4499d1b06b77a2094,
     type: 3}
   earthAttack: {fileID: 8467205249193297265, guid: 68ab2b6eb2076de48aec22b3292c275a,
     type: 3}

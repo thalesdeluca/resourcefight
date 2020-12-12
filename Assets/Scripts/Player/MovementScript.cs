@@ -58,7 +58,11 @@ public class MovementScript : MonoBehaviour {
 
     } else if (!element.Executing) {
       rigidbody.velocity = new Vector2(0, rigidbody.velocity.y);
-      this.gameObject.GetComponent<Animator>().Play("idle");
+
+      if (grounded.isGrounded) {
+        this.gameObject.GetComponent<Animator>().Play("idle");
+
+      }
 
     }
   }
